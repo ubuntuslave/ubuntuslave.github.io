@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>https://ubuntuslave.github.io/project/visual-odometry/</loc>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ubuntuslave.github.io/publication/2017-3dv-dmt/</loc>
+      <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ubuntuslave.github.io/post/</loc>
       <lastmod>2017-01-01T00:00:00-05:00</lastmod>
     </url>
@@ -132,7 +150,7 @@
     <url>
     
       <loc>https://ubuntuslave.github.io/publication_types/1/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -143,6 +161,26 @@
     
       <loc>https://ubuntuslave.github.io/publication_types/2/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ubuntuslave.github.io/tags/3d-computer-vision/</loc>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ubuntuslave.github.io/tags/camera-tracking/</loc>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -200,8 +238,18 @@
     
     <url>
     
+      <loc>https://ubuntuslave.github.io/tags/pose-estimation/</loc>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ubuntuslave.github.io/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -211,7 +259,17 @@
     <url>
     
       <loc>https://ubuntuslave.github.io/publication_types/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ubuntuslave.github.io/tags/slam/</loc>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -231,6 +289,16 @@
     <url>
     
       <loc>https://ubuntuslave.github.io/</loc>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ubuntuslave.github.io/tags/visual-odometry/</loc>
       <lastmod>2017-10-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
