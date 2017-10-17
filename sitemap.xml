@@ -23,6 +23,15 @@
     
     <url>
     
+      <loc>https://ubuntuslave.github.io/project/omnistereo_sensor/</loc>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ubuntuslave.github.io/publication/2017-3dv-dmt/</loc>
       <lastmod>2017-10-10T00:00:00+00:00</lastmod>
     </url>
@@ -140,6 +149,15 @@
     
     <url>
     
+      <loc>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</loc>
+      <lastmod>2016-02-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ubuntuslave.github.io/post/migrate-from-jekyll/</loc>
       <lastmod>2014-03-10T00:00:00-04:00</lastmod>
     </url>
@@ -151,6 +169,16 @@
     
       <loc>https://ubuntuslave.github.io/publication_types/1/</loc>
       <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ubuntuslave.github.io/publication_types/2/</loc>
+      <lastmod>2016-02-06T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -219,7 +247,7 @@
     <url>
     
       <loc>https://ubuntuslave.github.io/tags/design/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -250,6 +278,26 @@
     
       <loc>https://ubuntuslave.github.io/tags/jekyll/</loc>
       <lastmod>2014-03-10T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ubuntuslave.github.io/tags/mav/</loc>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ubuntuslave.github.io/tags/omnistereo/</loc>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

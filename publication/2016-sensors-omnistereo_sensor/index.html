@@ -45,11 +45,11 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://ubuntuslave.github.io/project/dmt/">
+  <link rel="canonical" href="https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/">
 
   
 
-  <title>Direct Multichannel Tracking | Vision 2π</title>
+  <title>Design and Analysis of a Single-Camera Omnistereo Sensor for Quadrotor Micro Aerial Vehicles (MAVs) | Vision 2π</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -143,57 +143,58 @@
   </div>
 </nav>
 
-
-<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 <div class="article-header">
-  <img src="/img/DMT/DMT-pipeline.png" class="article-banner" itemprop="image">
-  <span class="article-header-caption">DMT System Pipeline</span>
+  <img src="/img/omnistereo/pelican_with_75mm_catahyphereo_rig.png" class="article-banner" itemprop="image">
+  <span class="article-header-caption">Single-camera Catadioptric Omnistereo Sensor mounted on a UAV</span>
 </div>
 
 
 
-  <div class="article-container">
-
-    <div class="pub-title">
-      <h1 itemprop="name">Direct Multichannel Tracking</h1>
-      <span class="pub-authors" itemprop="author">&nbsp;</span>
-      <span class="pull-right">
-        
+  <div class="container pub-title">
+    <h1 itemprop="name">Design and Analysis of a Single-Camera Omnistereo Sensor for Quadrotor Micro Aerial Vehicles (MAVs)</h1>
+    <span class="pub-authors" itemprop="author">
+      
+      Carlos Jaramillo, Roberto G. Valenti, Ling Guo, Jizhong Xiao
+      
+    </span>
+    <span class="pull-right">
+      
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Direct%20Multichannel%20Tracking&amp;url=https%3a%2f%2fubuntuslave.github.io%2fproject%2fdmt%2f"
+         href="https://twitter.com/intent/tweet?text=Design%20and%20Analysis%20of%20a%20Single-Camera%20Omnistereo%20Sensor%20for%20Quadrotor%20Micro%20Aerial%20Vehicles%20%28MAVs%29&amp;url=https%3a%2f%2fubuntuslave.github.io%2fpublication%2f2016-sensors-omnistereo_sensor%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fubuntuslave.github.io%2fproject%2fdmt%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fubuntuslave.github.io%2fpublication%2f2016-sensors-omnistereo_sensor%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fubuntuslave.github.io%2fproject%2fdmt%2f&amp;title=Direct%20Multichannel%20Tracking"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fubuntuslave.github.io%2fpublication%2f2016-sensors-omnistereo_sensor%2f&amp;title=Design%20and%20Analysis%20of%20a%20Single-Camera%20Omnistereo%20Sensor%20for%20Quadrotor%20Micro%20Aerial%20Vehicles%20%28MAVs%29"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fubuntuslave.github.io%2fproject%2fdmt%2f&amp;title=Direct%20Multichannel%20Tracking"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fubuntuslave.github.io%2fpublication%2f2016-sensors-omnistereo_sensor%2f&amp;title=Design%20and%20Analysis%20of%20a%20Single-Camera%20Omnistereo%20Sensor%20for%20Quadrotor%20Micro%20Aerial%20Vehicles%20%28MAVs%29"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Direct%20Multichannel%20Tracking&amp;body=https%3a%2f%2fubuntuslave.github.io%2fproject%2fdmt%2f">
+         href="mailto:?subject=Design%20and%20Analysis%20of%20a%20Single-Camera%20Omnistereo%20Sensor%20for%20Quadrotor%20Micro%20Aerial%20Vehicles%20%28MAVs%29&amp;body=https%3a%2f%2fubuntuslave.github.io%2fpublication%2f2016-sensors-omnistereo_sensor%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -201,42 +202,112 @@
 </div>
 
 
-      </span>
-    </div>
-
-    
-
-    <div class="article-style" itemprop="articleBody">
-      <p>The single channel energy equation for photometric alignment is
-$
-E(\xi ) = \sum\limits_{i = 1}^V {{{({{I_K}({{\bf{p}}_i}) - I(\omega ({{\bf{p}}_i},{{\bf{D}}_K}({{\bf{p}}_i}),\xi ))})}^2}}
-$</p>
-
-<p>where ${\bf \xi}$ is a $6$-vector representing the pose of the current image $I$ with respect to the reference image $I_K$ in Lie algebra $\mathfrak{se}(3)$,
-and $\omega$ is the 3D projective warp function that maps the pixel location ${\bf{p}}_i$ in the reference image according to its inverse depth $D_K ({\bf{p}}_i)$
-and the pose ${\bf{\xi}}$ to the pixel location in the current image.</p>
-
-<p>Qulitative 3D reconstruction demonstration/comparisson to the single-channel (grascale) method video:</p>
-
-
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/WA55baA23Zs" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
- </div>
-
-
-    </div>
-
+    </span>
   </div>
-</article>
+
+</div>
+<div class="article-container">
+
+  
+
+  <h3>Abstract</h3>
+  <p class="pub-abstract" itemprop="text">We describe the design and 3D sensing performance of an omnidirectional stereo (omnistereo) vision system applied to Micro Aerial Vehicles (MAVs). The proposed omnistereo sensor employs a monocular camera that is co-axially aligned with a pair of hyperboloidal mirrors (a vertically-folded catadioptric configuration). We show that this arrangement provides a compact solution for omnidirectional 3D perception while mounted on top of propeller-based MAVs (not capable of large payloads). The theoretical single viewpoint (SVP) constraint helps us derive analytical solutions for the sensor&rsquo;s projective geometry and generate SVP-compliant panoramic images to compute 3D information from stereo correspondences (in a truly synchronous fashion). We perform an extensive analysis on various system characteristics such as its size, catadioptric spatial resolution, field-of-view. In addition, we pose a probabilistic model for the uncertainty estimation of 3D information from triangulation of back-projected rays. We validate the projection error of the design using both synthetic and real-life images against ground-truth data. Qualitatively, we show 3D point clouds (dense and sparse) resulting out of a single image captured from a real-life experiment. We expect the reproducibility of our sensor as its model parameters can be optimized to satisfy other catadioptric-based omnistereo vision under different circumstances.</p>
+
+  
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
+        <div class="col-xs-12 col-sm-9">
+          
+          <a href="/publication/#2">
+            Journal
+          </a>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+  
+
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
+        <div class="col-xs-12 col-sm-9">In MDPI <em>Sensors</em>, Special Issue Sensors for Robots.</div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+
+  <div class="row">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
+        <div class="col-xs-12 col-sm-9" itemprop="datePublished">
+          February, 2016
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+
+  <div class="row" style="padding-top: 10px">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10">
+      <div class="row">
+        <div class="col-xs-12 col-sm-3 pub-row-heading" style="line-height:34px;">Links</div>
+        <div class="col-xs-12 col-sm-9">
+
+          
+
+
+
+
+<a class="btn btn-primary btn-outline" href="http://www.mdpi.com/1424-8220/16/2/217/pdf">
+  PDF
+</a>
+
+
+
+
+<a class="btn btn-primary btn-outline" href="https://github.com/ubuntuslave/omnistereo_sensor_design">
+  Code
+</a>
+
+
+
+
+
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="visible-xs space-below"></div>
+
+  <div class="space-below"></div>
+
+  <div class="article-style"></div>
+
+</div>
 
 <div class="container">
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://ubuntuslave.github.io/project/gums/"><span
-      aria-hidden="true">&larr;</span> GUMS: Generalized Unified Model for Stereo Omnidirectional Vision</a></li>
-    
 
+    
+    <li class="next"><a href="https://ubuntuslave.github.io/publication/2016-iros-gums/">GUMS: A Generalized Unified Model for Stereo Omnidirectional Vision <span
+      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
