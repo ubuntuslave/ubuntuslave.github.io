@@ -5,7 +5,16 @@
     
     <url>
     
-      <loc>https://ubuntuslave.github.io/project/visual-odometry/</loc>
+      <loc>https://ubuntuslave.github.io/project/dmt/</loc>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ubuntuslave.github.io/project/gums/</loc>
       <lastmod>2017-10-13T00:00:00+00:00</lastmod>
     </url>
     
@@ -68,8 +77,8 @@
     
     <url>
     
-      <loc>https://ubuntuslave.github.io/project/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>https://ubuntuslave.github.io/publication/2016-iros-gums/</loc>
+      <lastmod>2016-10-09T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -77,7 +86,7 @@
     
     <url>
     
-      <loc>https://ubuntuslave.github.io/project/example-external-project/</loc>
+      <loc>https://ubuntuslave.github.io/project/cityalien/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -122,26 +131,8 @@
     
     <url>
     
-      <loc>https://ubuntuslave.github.io/publication/person-re-identification/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://ubuntuslave.github.io/post/migrate-from-jekyll/</loc>
       <lastmod>2014-03-10T00:00:00-04:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://ubuntuslave.github.io/publication/clothing-search/</loc>
-      <lastmod>2013-07-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -159,8 +150,8 @@
     
     <url>
     
-      <loc>https://ubuntuslave.github.io/publication_types/2/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <loc>https://ubuntuslave.github.io/tags/autonomous-robot/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -169,7 +160,7 @@
     
     <url>
     
-      <loc>https://ubuntuslave.github.io/tags/3d-computer-vision/</loc>
+      <loc>https://ubuntuslave.github.io/tags/calibration/</loc>
       <lastmod>2017-10-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -189,6 +180,16 @@
     
     <url>
     
+      <loc>https://ubuntuslave.github.io/tags/catadioptrics/</loc>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ubuntuslave.github.io/categories/</loc>
       <priority>0</priority>
     </url>
@@ -198,8 +199,8 @@
     
     <url>
     
-      <loc>https://ubuntuslave.github.io/tags/deep-learning/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <loc>https://ubuntuslave.github.io/tags/computer-vision/</loc>
+      <lastmod>2017-10-13T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -208,7 +209,7 @@
     
     <url>
     
-      <loc>https://ubuntuslave.github.io/tags/demo/</loc>
+      <loc>https://ubuntuslave.github.io/tags/design/</loc>
       <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -220,6 +221,16 @@
     
       <loc>https://ubuntuslave.github.io/tags/hugo/</loc>
       <lastmod>2017-09-03T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ubuntuslave.github.io/tags/igvc/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -260,6 +271,16 @@
     
       <loc>https://ubuntuslave.github.io/publication_types/</loc>
       <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ubuntuslave.github.io/tags/robotics/</loc>
+      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
