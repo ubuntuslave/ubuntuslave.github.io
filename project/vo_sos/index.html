@@ -219,13 +219,66 @@
  </div>
 
 
+<h2 id="calibration-files">Calibration Files</h2>
+
+<p>All the calibration images and &ldquo;pickles&rdquo; can be found here:</p>
+
+<ul>
+<li><p><a href="ftp://robot:robot@134.74.16.75/datasets/calibration/real" target="_blank">real</a></p></li>
+
+<li><p><a href="ftp://robot:robot@134.74.16.75/datasets/calibration/synthetic" target="_blank">synthetic</a></p></li>
+</ul>
+
+<p>However, to run the datasets for <strong>VO</strong>, it suffices by getting:</p>
+
+<ul>
+<li><p><a href="ftp://robot:robot@134.74.16.75/datasets/calibration/real/chessboard/gums-calibrated.pkl" target="_blank">real gums-calibrated.pkl</a></p></li>
+
+<li><p><a href="ftp://robot:robot@134.74.16.75/datasets/calibration/synthetic/chessboard/gums-calibrated.pkl" target="_blank">synthetic gums-calibrated.pkl</a></p></li>
+</ul>
+
 <h2 id="datasets">Datasets</h2>
 
 <p><strong>Hint</strong>: In some web browsers, clicking on the link may not work. You can try to <em>right-click</em> on the link and choose <code>&quot;Download/Save linked file as...&quot;</code></p>
 
+<p>Each sequence has 2 sub-folders:</p>
+
+<ul>
+<li><code>omni</code> pertaining the omnistereo data</li>
+<li><code>rgbd</code> pertaining the RGB-D camera data
+<br /></li>
+</ul>
+
+<h3 id="remarks-about-ground-truth-data">Remarks about &ldquo;ground-truth&rdquo; data</h3>
+
+<p>When available:</p>
+
+<ol>
+<li><p>Ground-truth poses obey the <a href="http://vision.in.tum.de/data/datasets/rgbd-dataset/file_formats" target="_blank">TUM format</a>, such that each line is <em>spaced-separated</em> encoding:</p>
+
+<ul>
+<li>time stamp  $t_x$  $t_y$  $t_z$  $q_x$  $q_y$  $q_z$  $q_w$</li>
+</ul></li>
+
+<li><p>For each sequence, the <code>gt_TUM.txt</code> is the <em>raw</em> ground-truth data, which was obtained from the motion capture system. Thus, these poses are given wrt our VICON mocap&rsquo;s frame, $[\textbf{V}]$.</p></li>
+
+<li><p>After running the <code>vo.py</code> for some sequence, the resulting files will be given inside the <code>results</code> subfolder within the sequence path:</p>
+
+<ul>
+<li><code>estimated_frame_poses_TUM.txt</code> has the estimated poses for the frames in the sequence wrt the sensor&rsquo;s camera frame, $[\tilde{\textbf{C}}]$.</li>
+<li><code>gt_associated_frame_poses_TUM.txt</code> has the associated ground-truth poses for the registered frames. These are already transformed into the ground-truth camera frame, $[\textbf{C}]$, because the appropriate <em>hand-eye transformation</em> has been already applied.
+<br /></li>
+</ul></li>
+
+<li><p>For the <strong>real</strong> sequences of the RGB-D camera, the required <em>hand-eye transformation</em> is found in <a href="ftp://robot:robot@134.74.16.75/datasets/calibration/real/rgbd_hand_eye_transformation.txt" target="_blank">calibration/rgbd_hand_eye_transformation.txt</a></p></li>
+</ol>
+
 <h3 id="synthetic">Synthetic</h3>
 
-<p><a href="ftp://robot:robot@134.74.16.75/datasets/test/image-000000.png" target="_blank">Office-0</a></p>
+<p><a href="ftp://robot:robot@134.74.16.75/datasets/synthetic/office-0.zip" target="_blank">Office-0</a>
+<a href="ftp://robot:robot@134.74.16.75/datasets/synthetic/office-1.zip" target="_blank">Office-1</a>
+<a href="ftp://robot:robot@134.74.16.75/datasets/synthetic/office-2.zip" target="_blank">Office-2</a>
+<a href="ftp://robot:robot@134.74.16.75/datasets/synthetic/office-3.zip" target="_blank">Office-3</a></p>
 
     </div>
 
