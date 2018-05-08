@@ -260,13 +260,13 @@
 <li>time stamp  $t_x$  $t_y$  $t_z$  $q_x$  $q_y$  $q_z$  $q_w$</li>
 </ul></li>
 
-<li><p>For each sequence, the <code>gt_TUM.txt</code> is the <em>raw</em> ground-truth data, which was obtained from the motion capture system. Thus, these poses are given wrt our VICON mocap&rsquo;s frame, $[\textbf{V}]$.</p></li>
+<li><p>For each sequence, the <code>gt_TUM.txt</code> is the <em>raw</em> ground-truth data, which was obtained from the motion capture system. Thus, these poses are given wrt our VICON mocap&rsquo;s frame, $[\rm{V}]$.</p></li>
 
 <li><p>After running the <code>vo.py</code> for some sequence, the resulting files will be given inside the <code>results</code> subfolder within the sequence path:</p>
 
 <ul>
-<li><code>estimated_frame_poses_TUM.txt</code> has the estimated poses for the frames in the sequence wrt the sensor&rsquo;s camera frame, $[\tilde{\textbf{C}}]$.</li>
-<li><code>gt_associated_frame_poses_TUM.txt</code> has the associated ground-truth poses for the registered frames. These are already transformed into the ground-truth camera frame, $[\textbf{C}]$, because the appropriate <em>hand-eye transformation</em> has been already applied.
+<li><code>estimated_frame_poses_TUM.txt</code> has the estimated poses ${}_{[{{\rm{C}}_i}]}^{[{\rm{K}_0}]}{\bf{\tilde T}}$ of the sequence wrt the initial camera frame, $[\rm{K}_0]$.</li>
+<li><code>gt_associated_frame_poses_TUM.txt</code> has the associated ground-truth poses for the registered frames. They are already transformed into the camera frame, $[\textbf{C}]$, via the appropriate <em>hand-eye transformation</em>, so that the pose is given as ${}_{[{{\rm{C}}_i}]}^{[{\rm{K}_0}]}{\bf{T}}$.
 <br /></li>
 </ul></li>
 
