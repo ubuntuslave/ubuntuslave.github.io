@@ -38,6 +38,21 @@
   
 
   
+      
+        <script>
+          window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+          ga('create', 'UA-119406963-1', 'auto');
+          ga('require', 'eventTracker');
+          ga('require', 'outboundLinkTracker');
+          ga('require', 'urlChangeTracker');
+          ga('send', 'pageview');
+        </script>
+        <script async src="//www.google-analytics.com/analytics.js"></script>
+        
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+        
+    
+  
 
   <link rel="alternate" href="" type="application/rss+xml" title="Vision 2π">
   <link rel="feed" href="" type="application/rss+xml" title="Vision 2π">
@@ -209,9 +224,15 @@
     <div class="article-style" itemprop="articleBody">
       
 
-<p><strong>Source code</strong> and <strong>dataset</strong> coming soon because this manuscript is currently under review.</p>
+<ul>
+<li><p><strong>Source code</strong> for demonstration can be found at the git repository for <a href="https://github.com/ubuntuslave/vo_single_camera_sos" target="_blank">vo_single_camera_sos</a></p></li>
 
-<p>Demonstration video using sequences from Grand Central Terminal:</p>
+<li><p>At the moment, only the <a href="http://134.74.16.180/owncloud/index.php/s/d64JeSXJVPwmMj4/download" target="_blank">synthetic office-0</a> and the <a href="http://134.74.16.180/owncloud/index.php/s/kalF5b7lEApDbvQ/download" target="_blank">real free-style</a> sequences are <em>not password-protected</em>.</p></li>
+
+<li><p>The rest of the <strong>dataset</strong> sequences are currently <em>password-protected</em> because the related article is <em>under review</em>. Please, e-mail the main author at <a href="mailto:omnistereo@gmail.com" target="_blank">omnistereo@gmail.com</a> to obtain the temporary <strong>password</strong> to download all these files. We thank you for understanding&hellip;we will remove the passwords immediately after the review stage.</p></li>
+</ul>
+
+<h2 id="demonstration-video-using-sequences-from-grand-central-terminal-gct">Demonstration video using sequences from Grand Central Terminal (GCT):</h2>
 
 
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
@@ -221,25 +242,32 @@
 
 <h2 id="calibration-files">Calibration Files</h2>
 
-<p>All the calibration images and &ldquo;pickles&rdquo; can be found here:</p>
+<!-- FUTURE:
+All the calibration images and "pickles" can be found here:
+
+- [real](ftp://robot:robot@134.74.16.75/datasets/calibration/real)
+
+- [synthetic](ftp://robot:robot@134.74.16.75/datasets/calibration/synthetic)
+
+However, 
+-->
+
+<p>To run the <strong>VO demo</strong> with our datasets, it suffices to obtain the corresponding calibrated GUMS file, either:</p>
 
 <ul>
-<li><p><a href="ftp://robot:robot@134.74.16.75/datasets/calibration/real" target="_blank">real</a></p></li>
-
-<li><p><a href="ftp://robot:robot@134.74.16.75/datasets/calibration/synthetic" target="_blank">synthetic</a></p></li>
+<li>For <strong>real-life</strong> data: <a href="http://passdropit.com/2VizEp3e" target="_blank">gums-calibrated.pkl</a></li>
 </ul>
 
-<p>However, to run the datasets for <strong>VO</strong>, it suffices by getting:</p>
+<p>or</p>
 
 <ul>
-<li><p><a href="ftp://robot:robot@134.74.16.75/datasets/calibration/real/chessboard/gums-calibrated.pkl" target="_blank">real gums-calibrated.pkl</a></p></li>
-
-<li><p><a href="ftp://robot:robot@134.74.16.75/datasets/calibration/synthetic/chessboard/gums-calibrated.pkl" target="_blank">synthetic gums-calibrated.pkl</a></p></li>
+<li>For <strong>synthetic</strong> data: <a href="http://passdropit.com/TbVGXLBQ" target="_blank">gums-calibrated.pkl</a></li>
 </ul>
+
+<p>For the RGB-D real-life examples, you may need the corresponding <em>hand-eye transformation</em>: <a href="http://passdropit.com/pgtl6PNO" target="_blank">rgbd_hand_eye_transformation.txt</a>
+<!-- FUTURE link: (http://134.74.16.180/owncloud/index.php/s/nP4Enq6W1JDkcUg) -->:</p>
 
 <h2 id="datasets-a-name-datasets-a">Datasets<a name="datasets"></a></h2>
-
-<p><strong>Hint</strong>: In some web browsers, clicking on the link may not work. You can try to <em>right-click</em> on the link and choose <code>&quot;Download/Save linked file as...&quot;</code></p>
 
 <p>Each sequence has 2 sub-folders:</p>
 
@@ -250,8 +278,6 @@
 </ul>
 
 <h3 id="remarks-about-ground-truth-data">Remarks about &ldquo;ground-truth&rdquo; data</h3>
-
-<p><strong>When available</strong> (<strong><em>Coming soon!</em></strong>):</p>
 
 <ol>
 <li><p>Ground-truth poses obey the <a href="http://vision.in.tum.de/data/datasets/rgbd-dataset/file_formats" target="_blank">TUM format</a>, such that each line is <em>spaced-separated</em> encoding:</p>
@@ -270,7 +296,7 @@
 <br /></li>
 </ul></li>
 
-<li><p>For the <strong>real</strong> sequences of the RGB-D camera, the required <em>hand-eye transformation</em> is found in <a href="ftp://robot:robot@134.74.16.75/datasets/calibration/real/rgbd_hand_eye_transformation.txt" target="_blank">calibration/rgbd_hand_eye_transformation.txt</a></p></li>
+<li><p>For the <strong>real-life</strong> sequences of the RGB-D camera, the required <em>hand-eye transformation</em> can be downloaded from this link <a href="http://passdropit.com/pgtl6PNO" target="_blank">rgbd_hand_eye_transformation.txt</a> <!-- FUTURE link: (http://134.74.16.180/owncloud/index.php/s/nP4Enq6W1JDkcUg) --></p></li>
 </ol>
 
 <h3 id="synthetic-sequences">Synthetic sequences</h3>
@@ -279,25 +305,25 @@
   <tr>
     <th >Name</th>
     <th ><div align="center"># Frames</div></th>
-    <th >Sample</th>
+    <th >Video Sample</th>
   </tr>
   <tr>
-    <td><a href="ftp://robot:robot@134.74.16.75/datasets/synthetic/office-0.zip" download>Office-0</a></td>
+    <td><a href="http://134.74.16.180/owncloud/index.php/s/d64JeSXJVPwmMj4/download" download>Office-0</a></td>
     <td><div align="center">1508</div></td>
     <td rowspan="4">
     <iframe width="280" src="https://www.youtube.com/embed/JXaaB9Qeoas?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </td>
   </tr>
   <tr>
-    <td><a href="ftp://robot:robot@134.74.16.75/datasets/synthetic/office-1.zip" download>Office-1</a></td>
+    <td><a href="http://134.74.16.180/owncloud/index.php/s/37jbUeTq775BS6b" download>Office-1</a></td>
     <td><div align="center">965</div></td>
   </tr>
   <tr>
-    <td><a href="ftp://robot:robot@134.74.16.75/datasets/synthetic/office-2.zip" download>Office-2</a></td>
+    <td><a href="http://134.74.16.180/owncloud/index.php/s/JZN8TBytKw9Edow" download>Office-2</a></td>
     <td><div align="center">880</div></td>
   </tr>
   <tr>
-    <td><a href="ftp://robot:robot@134.74.16.75/datasets/synthetic/office-3.zip" download>Office-3</a></td>
+    <td><a href="http://134.74.16.180/owncloud/index.php/s/kJoJJwS7Q9l4PZ8" download>Office-3</a></td>
     <td><div align="center">1240</div></td>
   </tr>
 </table>
@@ -336,7 +362,7 @@
 </tr>
 
 <tr>
-<td><a href="ftp://dummy.zip" target="_blank">Free Style</a></td>
+<td><a href="http://134.74.16.180/owncloud/index.php/s/kalF5b7lEApDbvQ/download" target="_blank">Free Style</a></td>
 <td>611</td>
 </tr>
 
