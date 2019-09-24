@@ -185,6 +185,15 @@
     
     <url>
     
+      <loc>https://ubuntuslave.github.io/project/ml-classification_from_luts/</loc>
+      <lastmod>2014-12-25T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://ubuntuslave.github.io/publication/2014-icra-uav/</loc>
       <lastmod>2014-05-31T00:00:00+00:00</lastmod>
     </url>
@@ -359,6 +368,16 @@
     
       <loc>https://ubuntuslave.github.io/tags/jekyll/</loc>
       <lastmod>2014-03-10T00:00:00-04:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://ubuntuslave.github.io/tags/machine-learning/</loc>
+      <lastmod>2014-12-25T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
