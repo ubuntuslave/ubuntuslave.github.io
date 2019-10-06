@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>calibration on Vision 2π</title>
+    <link>https://ubuntuslave.github.io/tags/calibration/</link>
+    <description>Recent content in calibration on Vision 2π</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Carlos Jaramillo</copyright>
+    <lastBuildDate>Fri, 13 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ubuntuslave.github.io/tags/calibration/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GUMS: Generalized Unified Model for Stereo Omnidirectional Vision</title>
+      <link>https://ubuntuslave.github.io/project/gums/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/project/gums/</guid>
+      <description>An extension of the generalized unified model (GUM) originally applied to a single omnidirectional view.</description>
+    </item>
+    
+  </channel>
+</rss>

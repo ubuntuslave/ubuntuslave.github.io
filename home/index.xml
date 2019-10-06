@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Vision 2π</title>
+    <link>https://ubuntuslave.github.io/home/</link>
+    <description>Recent content in Homes on Vision 2π</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Carlos Jaramillo</copyright>
+    <lastBuildDate>Mon, 24 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ubuntuslave.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://ubuntuslave.github.io/home/about/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/home/about/</guid>
+      <description>Biography Carlos Jaramillo is currently a Perception Engineer at Aurora Flight Sciences, a Boeing Company working on aerospace autonomy. In 2018, he earned his doctorate degree in computer science at the City University of New York under the supervision of Dr. Jizhong Xiao at the CCNY Robotics Lab. His Ph.D thesis dissertation included research in topics of computer vision applied to robotic sensing for navigation, mobile autonomous robots and omnidirectional vision sensors.</description>
+    </item>
+    
+    <item>
+      <title>Selected Publications</title>
+      <link>https://ubuntuslave.github.io/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>All Publications</title>
+      <link>https://ubuntuslave.github.io/home/publications/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://ubuntuslave.github.io/home/projects/</link>
+      <pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://ubuntuslave.github.io/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/home/teaching/</guid>
+      <description>I have quite a bit of experience teaching both kids and adults.
+I was an adjunct lecturer at CUNY Lehman College for the Mathematics and Computer Science Dept., where I taught the following courses:
+ CIS 212 Microcomputer Architecture (Spring 2014-Spring 2016): This requirement course provides a broad study of architecture of microcomputer systems with emphasis on CPU functionality, system bus &amp;amp; memory design and performance, secondary storage technologies and management, input/output peripherals (display and printer technologies), and network technologies.</description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>https://ubuntuslave.github.io/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://ubuntuslave.github.io/home/contact/</link>
+      <pubDate>Mon, 24 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/home/contact/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

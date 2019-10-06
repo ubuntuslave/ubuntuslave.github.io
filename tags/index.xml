@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Vision 2π</title>
+    <link>https://ubuntuslave.github.io/tags/</link>
+    <description>Recent content in Tags on Vision 2π</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Carlos Jaramillo</copyright>
+    <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ubuntuslave.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>catadioptrics</title>
+      <link>https://ubuntuslave.github.io/tags/catadioptrics/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/catadioptrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>computer-vision</title>
+      <link>https://ubuntuslave.github.io/tags/computer-vision/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>omnistereo</title>
+      <link>https://ubuntuslave.github.io/tags/omnistereo/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/omnistereo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>visual-odometry</title>
+      <link>https://ubuntuslave.github.io/tags/visual-odometry/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/visual-odometry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>calibration</title>
+      <link>https://ubuntuslave.github.io/tags/calibration/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/calibration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>camera-tracking</title>
+      <link>https://ubuntuslave.github.io/tags/camera-tracking/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/camera-tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>https://ubuntuslave.github.io/tags/design/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MAV</title>
+      <link>https://ubuntuslave.github.io/tags/mav/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/mav/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pose-estimation</title>
+      <link>https://ubuntuslave.github.io/tags/pose-estimation/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/pose-estimation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robotics</title>
+      <link>https://ubuntuslave.github.io/tags/robotics/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SLAM</title>
+      <link>https://ubuntuslave.github.io/tags/slam/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/slam/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>https://ubuntuslave.github.io/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
+    </item>
+    
+    <item>
+      <title>autonomous-robot</title>
+      <link>https://ubuntuslave.github.io/tags/autonomous-robot/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/autonomous-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IGVC</title>
+      <link>https://ubuntuslave.github.io/tags/igvc/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/igvc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://ubuntuslave.github.io/tags/hugo/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0400</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine-learning</title>
+      <link>https://ubuntuslave.github.io/tags/machine-learning/</link>
+      <pubDate>Thu, 25 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>https://ubuntuslave.github.io/tags/jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 -0400</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

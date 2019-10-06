@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>computer-vision on Vision 2π</title>
+    <link>https://ubuntuslave.github.io/tags/computer-vision/</link>
+    <description>Recent content in computer-vision on Vision 2π</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Carlos Jaramillo</copyright>
+    <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ubuntuslave.github.io/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visual Odometry with a Single-Camera Stereo Omnidirectional System</title>
+      <link>https://ubuntuslave.github.io/project/vo_sos/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/project/vo_sos/</guid>
+      <description>An extension of the generalized unified model (GUM) originally applied to a single omnidirectional view.</description>
+    </item>
+    
+    <item>
+      <title>Direct Multichannel Tracking</title>
+      <link>https://ubuntuslave.github.io/project/dmt/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/project/dmt/</guid>
+      <description>An extension of the semi-dense visual odometry (camera pose tracking) originally applied to a single grayscale image by the state-of-the-art Large-Scale Direct (LSD) SLAM.</description>
+    </item>
+    
+    <item>
+      <title>GUMS: Generalized Unified Model for Stereo Omnidirectional Vision</title>
+      <link>https://ubuntuslave.github.io/project/gums/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/project/gums/</guid>
+      <description>An extension of the generalized unified model (GUM) originally applied to a single omnidirectional view.</description>
+    </item>
+    
+    <item>
+      <title>Single-Camera Omnistereo Sensor for Quadrotor Micro Aerial Vehicles (MAVs)</title>
+      <link>https://ubuntuslave.github.io/project/omnistereo_sensor/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/project/omnistereo_sensor/</guid>
+      <description>A novel omnidirectional stereo sensor using a pair of hyperbolic mirrors and a single camera.</description>
+    </item>
+    
+    <item>
+      <title>CATA</title>
+      <link>https://ubuntuslave.github.io/project/cata/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/project/cata/</guid>
+      <description>In 2011, a new intelligent ground vehicle CATA (City Autonomous Transportation Agent) was rebuilt to employ the ROS framework to participate in IGVC.</description>
+    </item>
+    
+    <item>
+      <title>CityALIEN</title>
+      <link>https://ubuntuslave.github.io/project/cityalien/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/project/cityalien/</guid>
+      <description>In 2010, our intelligent ground vehicle CityALIEN participated and won the IGVC Design Challenge.</description>
+    </item>
+    
+  </channel>
+</rss>

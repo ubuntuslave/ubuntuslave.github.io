@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 on Vision 2π</title>
+    <link>https://ubuntuslave.github.io/publication_types/2/</link>
+    <description>Recent content in 2 on Vision 2π</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Carlos Jaramillo</copyright>
+    <lastBuildDate>Sun, 22 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ubuntuslave.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visual Odometry with a Single-Camera Stereo Omnidirectional System</title>
+      <link>https://ubuntuslave.github.io/publication/2019-mvap-vo_sos/</link>
+      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/publication/2019-mvap-vo_sos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enhancing 3D Visual Odometry with Single-Camera Stereo Omnidirectional Systems</title>
+      <link>https://ubuntuslave.github.io/publication/2018-phd_thesis/</link>
+      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/publication/2018-phd_thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design and Analysis of a Single-Camera Omnistereo Sensor for Quadrotor Micro Aerial Vehicles (MAVs)</title>
+      <link>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating near-spherical range panoramas by fusing optical flow and stereo from a single-camera folded catadioptric rig</title>
+      <link>https://ubuntuslave.github.io/publication/2011-mvap-spherical_omnistereo/</link>
+      <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/publication/2011-mvap-spherical_omnistereo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

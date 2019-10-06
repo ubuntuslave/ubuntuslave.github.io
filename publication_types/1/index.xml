@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Vision 2π</title>
+    <link>https://ubuntuslave.github.io/publication_types/1/</link>
+    <description>Recent content in 1 on Vision 2π</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Carlos Jaramillo</copyright>
+    <lastBuildDate>Tue, 10 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ubuntuslave.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Direct Multichannel Tracking</title>
+      <link>https://ubuntuslave.github.io/publication/2017-3dv-dmt/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/publication/2017-3dv-dmt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GUMS: A Generalized Unified Model for Stereo Omnidirectional Vision</title>
+      <link>https://ubuntuslave.github.io/publication/2016-iros-gums/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/publication/2016-iros-gums/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autonomous Quadrotor Flight Using Onboard RGB-D Visual Odometry</title>
+      <link>https://ubuntuslave.github.io/publication/2014-icra-uav/</link>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/publication/2014-icra-uav/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>6-DoF Pose Localization in 3D Point-Cloud Dense Maps Using a Monocular Camera</title>
+      <link>https://ubuntuslave.github.io/publication/2013-robio-6dof/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/publication/2013-robio-6dof/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Single-Camera Omni-Stereo Vision System for 3D Perception of Micro Aerial Vehicles (MAVs)</title>
+      <link>https://ubuntuslave.github.io/publication/2013-iciea-omnistereo/</link>
+      <pubDate>Wed, 19 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/publication/2013-iciea-omnistereo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incremental Registration of RGB-D Images</title>
+      <link>https://ubuntuslave.github.io/publication/2012-icra-incremental/</link>
+      <pubDate>Mon, 14 May 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/publication/2012-icra-incremental/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fusing Optical Flow and Stereo in a Spherical Depth Panorama Using a Single-Camera Folded Catadioptric Rig</title>
+      <link>https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/</link>
+      <pubDate>Mon, 09 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
