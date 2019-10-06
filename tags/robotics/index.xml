@@ -1,42 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>robotics on Vision 2π</title>
+    <title>Robotics | Vision 2π</title>
     <link>https://ubuntuslave.github.io/tags/robotics/</link>
-    <description>Recent content in robotics on Vision 2π</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Carlos Jaramillo</copyright>
-    <lastBuildDate>Fri, 13 Oct 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ubuntuslave.github.io/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://ubuntuslave.github.io/tags/robotics/index.xml" rel="self" type="application/rss+xml" />
+    <description>Robotics</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Sat, 31 May 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <title>Robotics</title>
+      <link>https://ubuntuslave.github.io/tags/robotics/</link>
+    </image>
     
     <item>
-      <title>Single-Camera Omnistereo Sensor for Quadrotor Micro Aerial Vehicles (MAVs)</title>
-      <link>https://ubuntuslave.github.io/project/omnistereo_sensor/</link>
-      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubuntuslave.github.io/project/omnistereo_sensor/</guid>
-      <description>A novel omnidirectional stereo sensor using a pair of hyperbolic mirrors and a single camera.</description>
+      <title>Autonomous Quadrotor Flight Using Onboard RGB-D Visual Odometry</title>
+      <link>https://ubuntuslave.github.io/publication/2014-icra-uav/</link>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2014-icra-uav/</guid>
+      <description>&lt;p&gt;Four-dimensional path (blue) in a cluttered indoor environment (map) built online with the visual odometry algorithm using the RGB-D sensor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;ICRA2014-path_goals.png&#34; alt=&#34;Path for the quadrotor in the clutter map&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>CATA</title>
-      <link>https://ubuntuslave.github.io/project/cata/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubuntuslave.github.io/project/cata/</guid>
-      <description>In 2011, a new intelligent ground vehicle CATA (City Autonomous Transportation Agent) was rebuilt to employ the ROS framework to participate in IGVC.</description>
-    </item>
-    
-    <item>
-      <title>CityALIEN</title>
-      <link>https://ubuntuslave.github.io/project/cityalien/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubuntuslave.github.io/project/cityalien/</guid>
-      <description>In 2010, our intelligent ground vehicle CityALIEN participated and won the IGVC Design Challenge.</description>
+      <title>Incremental Registration of RGB-D Images</title>
+      <link>https://ubuntuslave.github.io/publication/2012-icra-incremental/</link>
+      <pubDate>Mon, 14 May 2012 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2012-icra-incremental/</guid>
+      <description></description>
     </item>
     
   </channel>

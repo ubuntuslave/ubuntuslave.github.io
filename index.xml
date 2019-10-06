@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vision 2π</title>
+    <link>https://ubuntuslave.github.io/</link>
+      <atom:link href="https://ubuntuslave.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Vision 2π</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <title>Vision 2π</title>
+      <link>https://ubuntuslave.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://ubuntuslave.github.io/talk/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/talk/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visual Odometry with a Single-Camera Stereo Omnidirectional System</title>
+      <link>https://ubuntuslave.github.io/project/vo_sos/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/project/vo_sos/</guid>
+      <description>
+
+&lt;h2 id=&#34;demonstration-video-using-sequences-from-grand-central-terminal-gct&#34;&gt;Demonstration video using sequences from Grand Central Terminal (GCT):&lt;/h2&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/c5tyHqEkKQA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;source-code&#34;&gt;Source code&lt;/h2&gt;
+
+&lt;p&gt;The demonstration code can be found at the git repository for &lt;a href=&#34;https://github.com/ubuntuslave/vo_single_camera_sos&#34; target=&#34;_blank&#34;&gt;vo_single_camera_sos&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;calibration-files&#34;&gt;Calibration Files&lt;/h2&gt;
+
+&lt;!-- FUTURE:
+All the calibration images and &#34;pickles&#34; can be found here:
+
+- [real](ftp://robot:robot@134.74.16.75/datasets/calibration/real)
+
+- [synthetic](ftp://robot:robot@134.74.16.75/datasets/calibration/synthetic)
+ 
+--&gt;
+
+&lt;h2 id=&#34;data-sets-a-name-datasets-a&#34;&gt;Data sets&lt;a name=&#34;datasets&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Each sequence has 2 sub-folders:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;omni&lt;/code&gt; pertaining the omnistereo data&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rgbd&lt;/code&gt; pertaining the RGB-D camera data
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;remarks-about-the-ground-truth-data-used-as-reference&#34;&gt;Remarks about the &amp;ldquo;ground-truth&amp;rdquo; data used as reference&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Ground-truth poses obey the &lt;a href=&#34;http://vision.in.tum.de/data/datasets/rgbd-dataset/file_formats&#34; target=&#34;_blank&#34;&gt;TUM format&lt;/a&gt;, such that each line is &lt;em&gt;spaced-separated&lt;/em&gt; encoding:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;time stamp  $t_x$  $t_y$  $t_z$  $q_x$  $q_y$  $q_z$  $q_w$&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For each sequence, the &lt;code&gt;gt_TUM.txt&lt;/code&gt; is the &lt;em&gt;raw&lt;/em&gt; ground-truth data, which was obtained from the motion capture system. Thus, these poses are given wrt our VICON mocap&amp;rsquo;s frame, $[\rm{V}]$.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;After running the &lt;code&gt;demo_vo_*.py&lt;/code&gt; for some sequence, the resulting files will be given inside the &lt;code&gt;results&lt;/code&gt; subfolder within the sequence path:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;estimated_frame_poses_TUM.txt&lt;/code&gt; has the estimated poses ${}_{[{{\rm{C}}_i}]}^{[{\rm{K}_0}]}{\bf{\tilde T}}$ of the sequence wrt the initial camera frame, $[\rm{K}_0]$.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gt_associated_frame_poses_TUM.txt&lt;/code&gt; has the associated ground-truth poses for the registered frames. They are already transformed into the camera frame, $[\textbf{C}]$, via the appropriate &lt;em&gt;hand-eye transformation&lt;/em&gt;, so that the pose is given as ${}_{[{{\rm{C}}_i}]}^{[{\rm{K}_0}]}{\bf{T}}$.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;For the &lt;strong&gt;real-life&lt;/strong&gt; sequences of the RGB-D camera, the required &lt;em&gt;hand-eye transformation&lt;/em&gt; can be downloaded from this link &lt;a href=&#34;https://www.dropbox.com/s/0322px08wdyirz1/rgbd_hand_eye_transformation.txt?dl=0&#34; target=&#34;_blank&#34;&gt;rgbd_hand_eye_transformation.txt&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;synthetic-sequences&#34;&gt;Synthetic sequences&lt;/h3&gt;
+
+&lt;p&gt;To run the &lt;code&gt;demo_vo_sos.py&lt;/code&gt; script with the &lt;em&gt;synthetic&lt;/em&gt; data set, it suffices to obtain the corresponding GUMS calibration file &lt;a href=&#34;https://www.dropbox.com/s/9k8s1ah1qmgwqrc/gums-calibrated.pkl?dl=0&#34; target=&#34;_blank&#34;&gt;gums-calibrated.pkl&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;th &gt;Name&lt;/th&gt;
+    &lt;th &gt;&lt;div align=&#34;center&#34;&gt;# Frames&lt;/div&gt;&lt;/th&gt;
+    &lt;th &gt;Video Sample&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/rx3n7i5n3fpsc5k/office-0.zip?dl=0&#34; download&gt;Office-0&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align=&#34;center&#34;&gt;1508&lt;/div&gt;&lt;/td&gt;
+    &lt;td rowspan=&#34;4&#34;&gt;
+    &lt;iframe width=&#34;280&#34; src=&#34;https://www.youtube.com/embed/JXaaB9Qeoas?rel=0&#34; frameborder=&#34;0&#34; allow=&#34;autoplay; encrypted-media&#34; allowfullscreen&gt;&lt;/iframe&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/ve3kkq4uoha1b46/office-1.zip?dl=0&#34; download&gt;Office-1&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align=&#34;center&#34;&gt;965&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/ore4ukmxh5j0338/office-2.zip?dl=0&#34; download&gt;Office-2&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align=&#34;center&#34;&gt;880&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/gak8cwyhookzasu/office-3.zip?dl=0&#34; download&gt;Office-3&lt;/a&gt;&lt;/td&gt;
+    &lt;td&gt;&lt;div align=&#34;center&#34;&gt;1240&lt;/div&gt;&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;real-life-sequences&#34;&gt;Real-life sequences&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;To run the &lt;code&gt;demo_vo_sos.py&lt;/code&gt; script with the &lt;em&gt;real-life&lt;/em&gt; SOS data set, it suffices to obtain the corresponding GUMS calibration file &lt;a href=&#34;https://www.dropbox.com/s/i01jl165c0mzb8n/gums-calibrated.pkl?dl=0&#34; target=&#34;_blank&#34;&gt;gums-calibrated.pkl&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To run the &lt;code&gt;demo_vo_rgbd.py&lt;/code&gt; script with the &lt;em&gt;real-life&lt;/em&gt; RGB-D data set, the required &lt;em&gt;hand-eye transformation&lt;/em&gt; &lt;a href=&#34;https://www.dropbox.com/s/0322px08wdyirz1/rgbd_hand_eye_transformation.txt?dl=0&#34; target=&#34;_blank&#34;&gt;rgbd_hand_eye_transformation.txt&lt;/a&gt; is needed.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;conventional-motion&#34;&gt;Conventional motion&lt;/h4&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;# Frames&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/xkxp880mxcvcj8x/square_small.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Square Small&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;619&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/7xt2scl62ofwnxm/square_smooth.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Square Smooth&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;1325&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/nazxaamjnr6amah/spinning.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Spinning&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;770&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/e3xsn9fq20fwwbr/vertical.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Vertical&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;459&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/ojggx0nmzg6jh9d/free_style.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Free Style&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;611&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/2kttiewtv20x880/hallway.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Hallway&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;5636&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;moving-under-special-conditions&#34;&gt;Moving under special conditions&lt;/h4&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;# Frames&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/9rodx1ma02atnwu/into_wall_regular.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Into Wall - Regular&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;1041&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/dh1c73tsswyqzew/into_wall_slow.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Into Wall - Slow&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;1400&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/zymh8znjoxaf2z6/into_wall_fast.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Into Wall - Fast&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;896&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/mui9v6j1rhzncl6/into_wall_curvy.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Into Wall - Curvy&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;838&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/xnj7e01vm2jfbkx/into_darkness_straight.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Into Dark - Straight&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;998&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/bw5slevqzrwupk0/into_darkness_turning.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Into Dark - Turning&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;1260&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;moving-in-dynamic-environments&#34;&gt;Moving in dynamic environments&lt;/h4&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;# Frames&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/m3q3xw747eajvtq/moving_in_slow_dynamic_environment.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Slow Dynamic&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;390&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/j2p4mi8sg9h5gng/moving_in_fast_dynamic_environment.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Fast Dynamic&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;518&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/ubbq4q296l669yc/GCT_clock.zip?dl=0&#34; target=&#34;_blank&#34;&gt;GCT Clock&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;2179&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/16qhrqzlc4wwzvc/GCT_stairs.zip?dl=0&#34; target=&#34;_blank&#34;&gt;GCT Stairs&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;3625&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h4 id=&#34;static-rigs-in-dynamic-environments&#34;&gt;Static rigs in dynamic environments&lt;/h4&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Prox. [m]&lt;/th&gt;
+&lt;th&gt;# People&lt;/th&gt;
+&lt;th&gt;File Link&lt;/th&gt;
+&lt;th&gt;# Frames&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/swt1az2i9rvs9ok/static_dynamic_1_1.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_1_1.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;691&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/chh2oh21ufg1a26/static_dynamic_1_2.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_1_2.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;759&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/6bco2rtpncqrdsl/static_dynamic_1_4.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_1_4.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;791&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/m2u0qx1nsjz3v07/static_dynamic_2_1.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_2_1.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;679&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/b0viyankjrh81tq/static_dynamic_2_2.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_2_2.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;673&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/yw0y63tslvu2zff/static_dynamic_2_4.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_2_4.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;799&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/pkguohcliqd120p/static_dynamic_3_1.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_3_1.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;720&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/d2d062sl8vo1wfp/static_dynamic_3_2.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_3_2.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;815&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/cnr0antcvt5tv3a/static_dynamic_3_4.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_3_4.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;772&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Var&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/kamzqbkgpoey0p3/static_dynamic_freestyle.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_freestyle.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;939&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Var&lt;/td&gt;
+&lt;td&gt;Var&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/8666co2qu4a61en/GCT_static.zip?dl=0&#34; target=&#34;_blank&#34;&gt;GCT_static.zip&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;1904&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
+
+&lt;p&gt;When using this dataset in your research, please cite:&lt;/p&gt;
+
+&lt;div&gt;&lt;p&gt;
+@ARTICLE{&lt;a href=&#34;http://www.to_do.pdf&#34;&gt;Jaramillo2019MVAP&lt;/a&gt;,&lt;br/&gt;
+&amp;nbsp; author = {&lt;a href=&#34;http://me.vision2pi.com&#34; target=&#34;blank&#34;&gt;Carlos Jaramillo&lt;/a&gt; 
+and 
+&lt;a href=&#34;https://ericlyang.github.io&#34; target=&#34;blank&#34;&gt;Liang Yang&lt;/a&gt; 
+and 
+Pablo Munoz
+and 
+&lt;a href=&#34;http://yuichitaguchi.com&#34; target=&#34;blank&#34;&gt;Yuichi Taguchi&lt;/a&gt;
+and &lt;a href=&#34;http://robotics.ccny.cuny.edu/&#34; target=&#34;blank&#34;&gt;Jizhong Xiao&lt;/a&gt;
+}, &lt;br/&gt; &amp;nbsp; 
+title = {Visual Odometry with a Single-Camera Stereo Omnidirectional System},&lt;br/&gt;&amp;nbsp; 
+journal = {Springer Machine Vision and Applications (MVAP)},&lt;br/&gt; 
+&amp;nbsp; year = {2019}&lt;br/&gt;
+}
+&lt;br/&gt;
+&lt;/p&gt;&lt;/div&gt;
+
+&lt;h2 id=&#34;copyright&#34;&gt;Copyright&lt;/h2&gt;
+
+&lt;div&gt;&lt;p&gt;
+&lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0;float:left;margin-right:10px;&#34; src=&#34;http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png&#34; /&gt;All datasets on this page are copyrighted by Carlos Jaramillo and published under the &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/3.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&lt;/a&gt; License. 
+&lt;br/&gt;
+This means that you must attribute the work in the manner specified by the authors, you may not use this work for commercial purposes and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same license.&lt;br&gt;
+&lt;/p&gt;&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Visual Odometry with a Single-Camera Stereo Omnidirectional System</title>
+      <link>https://ubuntuslave.github.io/publication/2019-mvap-sos_vo/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2019-mvap-sos_vo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Writing technical content in Academic</title>
+      <link>https://ubuntuslave.github.io/post/writing-technical-content/</link>
+      <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/post/writing-technical-content/</guid>
+      <description>&lt;p&gt;Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On this page, you&#39;ll find some examples of the types of technical content that can be rendered with Academic.&lt;/p&gt;
+
+&lt;h2 id=&#34;examples&#34;&gt;Examples&lt;/h2&gt;
+
+&lt;h3 id=&#34;code&#34;&gt;Code&lt;/h3&gt;
+
+&lt;p&gt;Academic supports a Markdown extension for highlighting code syntax. You can enable this feature by toggling the &lt;code&gt;highlight&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;```python
+import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+```
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;import pandas as pd
+data = pd.read_csv(&amp;quot;data.csv&amp;quot;)
+data.head()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;math&#34;&gt;Math&lt;/h3&gt;
+
+&lt;p&gt;Academic supports a Markdown extension for $\LaTeX$ math. You can enable this feature by toggling the &lt;code&gt;math&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file and adding &lt;code&gt;markup: mmark&lt;/code&gt; to your page front matter.&lt;/p&gt;
+
+&lt;p&gt;To render &lt;em&gt;inline&lt;/em&gt; or &lt;em&gt;block&lt;/em&gt; math, wrap your LaTeX math with &lt;code&gt;$$...$$&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Example &lt;strong&gt;math block&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$\gamma_{n} = \frac{ 
+\left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T 
+\left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}
+{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}$$
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[\gamma_{n} = \frac{ \left | \left (\mathbf x_{n} - \mathbf x_{n-1} \right )^T \left [\nabla F (\mathbf x_{n}) - \nabla F (\mathbf x_{n-1}) \right ] \right |}{\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2}\]&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Example &lt;strong&gt;inline math&lt;/strong&gt; &lt;code&gt;$$\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2$$&lt;/code&gt; renders as &lt;span  class=&#34;math&#34;&gt;\(\left \|\nabla F(\mathbf{x}_{n}) - \nabla F(\mathbf{x}_{n-1}) \right \|^2\)&lt;/span&gt; .&lt;/p&gt;
+
+&lt;p&gt;Example &lt;strong&gt;multi-line math&lt;/strong&gt; using the &lt;code&gt;\\&lt;/code&gt; math linebreak:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-tex&#34;&gt;$$f(k;p_0^*) = \begin{cases} p_0^* &amp;amp; \text{if }k=1, \\
+1-p_0^* &amp;amp; \text {if }k=0.\end{cases}$$
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;p&gt;&lt;span  class=&#34;math&#34;&gt;\[f(k;p_0^*) = \begin{cases} p_0^* &amp; \text{if }k=1, \\
+1-p_0^* &amp; \text {if }k=0.\end{cases}\]&lt;/span&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;diagrams&#34;&gt;Diagrams&lt;/h3&gt;
+
+&lt;p&gt;Academic supports a Markdown extension for diagrams. You can enable this feature by toggling the &lt;code&gt;diagram&lt;/code&gt; option in your &lt;code&gt;config/_default/params.toml&lt;/code&gt; file or by adding &lt;code&gt;diagram: true&lt;/code&gt; to your page front matter.&lt;/p&gt;
+
+&lt;p&gt;An example &lt;strong&gt;flowchart&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;```mermaid
+graph TD;
+  A--&amp;gt;B;
+  A--&amp;gt;C;
+  B--&amp;gt;D;
+  C--&amp;gt;D;
+```
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;graph TD;
+  A--&amp;gt;B;
+  A--&amp;gt;C;
+  B--&amp;gt;D;
+  C--&amp;gt;D;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;An example &lt;strong&gt;sequence diagram&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;```mermaid
+sequenceDiagram
+  participant Alice
+  participant Bob
+  Alice-&amp;gt;John: Hello John, how are you?
+  loop Healthcheck
+      John-&amp;gt;John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
+  John--&amp;gt;Alice: Great!
+  John-&amp;gt;Bob: How about you?
+  Bob--&amp;gt;John: Jolly good!
+```
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;sequenceDiagram
+  participant Alice
+  participant Bob
+  Alice-&amp;gt;John: Hello John, how are you?
+  loop Healthcheck
+      John-&amp;gt;John: Fight against hypochondria
+  end
+  Note right of John: Rational thoughts &amp;lt;br/&amp;gt;prevail...
+  John--&amp;gt;Alice: Great!
+  John-&amp;gt;Bob: How about you?
+  Bob--&amp;gt;John: Jolly good!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;An example &lt;strong&gt;Gantt diagram&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;```mermaid
+gantt
+  dateFormat  YYYY-MM-DD
+  section Section
+  A task           :a1, 2014-01-01, 30d
+  Another task     :after a1  , 20d
+  section Another
+  Task in sec      :2014-01-12  , 12d
+  another task      : 24d
+```
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-mermaid&#34;&gt;gantt
+  dateFormat  YYYY-MM-DD
+  section Section
+  A task           :a1, 2014-01-01, 30d
+  Another task     :after a1  , 20d
+  section Another
+  Task in sec      :2014-01-12  , 12d
+  another task      : 24d
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;todo-lists&#34;&gt;Todo lists&lt;/h3&gt;
+
+&lt;p&gt;You can even write your todo lists in Academic too:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;- [x] Write math example
+- [x] Write diagram example
+- [ ] Do something else
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34;&gt; Write math example&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; checked=&#34;&#34; disabled=&#34;&#34;&gt; Write diagram example&lt;/li&gt;
+&lt;li&gt;&lt;input type=&#34;checkbox&#34; disabled=&#34;&#34;&gt; Do something else&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
+
+&lt;p&gt;Represent your data in tables:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;First Header&lt;/th&gt;
+&lt;th&gt;Second Header&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;td&gt;Content Cell&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;asides&#34;&gt;Asides&lt;/h3&gt;
+
+&lt;p&gt;Academic supports a Markdown extension for asides, also referred to as &lt;em&gt;notices&lt;/em&gt; or &lt;em&gt;hints&lt;/em&gt;. By prefixing a paragraph with &lt;code&gt;A&amp;gt;&lt;/code&gt;, it will render as an aside. You can enable this feature by adding &lt;code&gt;markup: mmark&lt;/code&gt; to your page front matter, or alternatively using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/#alerts&#34;&gt;&lt;em&gt;Alert&lt;/em&gt; shortcode&lt;/a&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;A&amp;gt; A Markdown aside is useful for displaying notices, hints, or definitions to your readers.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;aside&gt;
+&lt;p&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/p&gt;
+&lt;/aside&gt;
+
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>https://ubuntuslave.github.io/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/post/jupyter/</guid>
+      <description>
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;./index_1_0.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;install-python-and-jupyterlab&#34;&gt;Install Python and JupyterLab&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and JupyterLab.&lt;/p&gt;
+
+&lt;p&gt;Alternatively, install JupyterLab with &lt;code&gt;pip3 install jupyterlab&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+
+&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY-WEBSITE-FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;&amp;lt;SHORT-POST-TITLE&amp;gt;&lt;/code&gt; with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;mkdir -p &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+cd &amp;lt;MY-WEBSITE-FOLDER&amp;gt;/content/post/&amp;lt;SHORT-POST-TITLE&amp;gt;/
+jupyter lab index.ipynb
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The &lt;code&gt;jupyter&lt;/code&gt; command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.&lt;/p&gt;
+
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+
+&lt;p&gt;The first cell of your Jupter notebook will contain your post metadata (&lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34;&gt;front matter&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;In Jupter, choose &lt;em&gt;Markdown&lt;/em&gt; as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title: My post&#39;s title
+date: 2019-09-01
+
+# Put any other Academic metadata here...
+---
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Edit the metadata of your post, using the &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content&#34; target=&#34;_blank&#34;&gt;documentation&lt;/a&gt; as a guide to the available options.&lt;/p&gt;
+
+&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+
+&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir=.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+
+&lt;p&gt;This post was created with Jupyter. The orginal files can be found at &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&#34; target=&#34;_blank&#34;&gt;https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Slides</title>
+      <link>https://ubuntuslave.github.io/slides/example/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/slides/example/</guid>
+      <description>
+
+&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
+&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
+&lt;li&gt;Supports speaker notes&lt;/li&gt;
+&lt;li&gt;Mobile friendly slides&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
+
+&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Code block:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
+if porridge == &amp;quot;blueberry&amp;quot;:
+    print(&amp;quot;Eating...&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
+
+&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
+
+&lt;p&gt;Block math:&lt;/p&gt;
+
+&lt;p&gt;$$
+f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
+
+&lt;p&gt;Make content appear incrementally&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
+{{% fragment %}} **Two** {{% /fragment %}}
+{{% fragment %}} Three {{% /fragment %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
+   One
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   &lt;strong&gt;Two&lt;/strong&gt;
+&lt;/span&gt;
+&lt;span class=&#34;fragment &#34; &gt;
+   Three
+&lt;/span&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
+
+&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
+- Only the speaker can read these notes
+- Press `S` key to view
+{{% /speaker_note %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
+
+&lt;aside class=&#34;notes&#34;&gt;
+  &lt;ul&gt;
+&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
+&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/aside&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
+&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
+&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
+&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
+&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
+&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
+&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+
+&lt;section data-noprocess data-shortcode-slide
+  
+      
+      data-background-image=&#34;/img/boards.jpg&#34;
+  &gt;
+
+
+&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
+
+&lt;p&gt;Customize the slide style and background&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
+{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
+{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
+
+&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
+
+&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
+.reveal section h2,
+.reveal section h3 {
+  color: navy;
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Enhancing 3D Visual Odometry with Single-Camera Stereo Omnidirectional Systems</title>
+      <link>https://ubuntuslave.github.io/publication/2018-phd_thesis/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2018-phd_thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Direct Multichannel Tracking</title>
+      <link>https://ubuntuslave.github.io/publication/2017-3dv-dmt/</link>
+      <pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2017-3dv-dmt/</guid>
+      <description>
+
+&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
+
+&lt;p&gt;The following figure explains the pipeline of the DMT system:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;DMT-pipeline-white_bg.png&#34; alt=&#34;DMT System Pipeline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The single channel energy equation for photometric alignment is
+$$
+E(\xi ) = \sum\limits_{i = 1}^V {{{({{I_K}({{\bf{p}}_i}) - I(\omega ({{\bf{p}}_i},{{\bf{D}}_K}({{\bf{p}}_i}),\xi ))})}^2}}
+$$&lt;/p&gt;
+
+&lt;p&gt;where ${\bf \xi}$ is a $6$-vector representing the pose of the current image $I$ with respect to the reference image $I_K$ in Lie algebra $\mathfrak{se}(3)$,
+and $\omega$ is the 3D projective warp function that maps the pixel location ${\bf{p}}_i$ in the reference image according to its inverse depth $D_K ({\bf{p}}_i)$
+and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
+
+&lt;h3 id=&#34;qulitative-3d-reconstruction-demonstration-comparisson-to-the-single-channel-grascale-method-video&#34;&gt;Qulitative 3D reconstruction demonstration/comparisson to the single-channel (grascale) method video:&lt;/h3&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/WA55baA23Zs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>GUMS: A Generalized Unified Model for Stereo Omnidirectional Vision (Demonstrated Via a Folded Catadioptric System)</title>
+      <link>https://ubuntuslave.github.io/publication/2016-iros-gums/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2016-iros-gums/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;gums-coaxially_constrained-white_bg.png&#34; alt=&#34;Coaxially constrained GUMS&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;calibration-demonstration-video&#34;&gt;Calibration demonstration video:&lt;/h3&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/8c7fTHMSUFM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>External Project</title>
+      <link>https://ubuntuslave.github.io/project/external-project/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/project/external-project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic: the website builder for Hugo</title>
+      <link>https://ubuntuslave.github.io/post/getting-started/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/post/getting-started/</guid>
+      <description>
+
+&lt;p&gt;&lt;strong&gt;Create a free website with Academic using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 &lt;em&gt;widgets&lt;/em&gt;, &lt;em&gt;themes&lt;/em&gt;, and &lt;em&gt;language packs&lt;/em&gt; included!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Check out the latest &lt;strong&gt;demo&lt;/strong&gt;&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes, or &lt;a href=&#34;https://sourcethemes.com/academic/#expo&#34; target=&#34;_blank&#34;&gt;view the &lt;strong&gt;showcase&lt;/strong&gt;&lt;/a&gt; of personal, project, and business sites.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;👉 &lt;a href=&#34;#install&#34;&gt;&lt;strong&gt;Get Started&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;📚 &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;View the &lt;strong&gt;documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💬 &lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Ask a question&lt;/strong&gt; on the forum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👥 &lt;a href=&#34;https://spectrum.chat/academic&#34; target=&#34;_blank&#34;&gt;Chat with the &lt;strong&gt;community&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🐦 Twitter: &lt;a href=&#34;https://twitter.com/source_themes&#34; target=&#34;_blank&#34;&gt;@source_themes&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GeorgeCushen&#34; target=&#34;_blank&#34;&gt;@GeorgeCushen&lt;/a&gt; &lt;a href=&#34;https://twitter.com/search?q=%23MadeWithAcademic&amp;amp;src=typd&#34; target=&#34;_blank&#34;&gt;#MadeWithAcademic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💡 &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;Request a &lt;strong&gt;feature&lt;/strong&gt; or report a &lt;strong&gt;bug&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;⬆️ &lt;strong&gt;Updating?&lt;/strong&gt; View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;❤️ &lt;strong&gt;Support development&lt;/strong&gt; of Academic:
+
+&lt;ul&gt;
+&lt;li&gt;☕️ &lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Donate a coffee&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;💵 &lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34;&gt;Become a backer on &lt;strong&gt;Patreon&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;🖼️ &lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34;&gt;Decorate your laptop or journal with an Academic &lt;strong&gt;sticker&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👕 &lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34;&gt;Wear the &lt;strong&gt;T-shirt&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;👩‍💻 &lt;a href=&#34;https://sourcethemes.com/academic/docs/contribute/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Contribute&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; data-caption=&#34;Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.&#34;&gt;
+&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;&#34; &gt;&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption&gt;
+    Academic is mobile first with a responsive design to ensure that your site looks stunning on every device.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Page builder&lt;/strong&gt; - Create &lt;em&gt;anything&lt;/em&gt; with &lt;a href=&#34;https://sourcethemes.com/academic/docs/page-builder/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;widgets&lt;/strong&gt;&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;elements&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edit any type of content&lt;/strong&gt; - Blog posts, publications, talks, slides, projects, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create content&lt;/strong&gt; in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Markdown&lt;/strong&gt;&lt;/a&gt;, &lt;a href=&#34;https://sourcethemes.com/academic/docs/jupyter/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Jupyter&lt;/strong&gt;&lt;/a&gt;, or &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugin System&lt;/strong&gt; - Fully customizable &lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;color&lt;/strong&gt; and &lt;strong&gt;font themes&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Display Code and Math&lt;/strong&gt; - Code highlighting and &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX math&lt;/a&gt; supported&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt; - &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus commenting&lt;/a&gt;, Maps, Contact Forms, and more!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful Site&lt;/strong&gt; - Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Industry-Leading SEO&lt;/strong&gt; - Help get your website found on search engines and social media&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Galleries&lt;/strong&gt; - Display your images and videos with captions in a customizable gallery&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mobile Friendly&lt;/strong&gt; - Look amazing on every screen with a mobile friendly version of your site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-language&lt;/strong&gt; - 15+ language packs including English, 中文, and Português&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-user&lt;/strong&gt; - Each author gets their own profile page&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy Pack&lt;/strong&gt; - Assists with GDPR&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stand Out&lt;/strong&gt; - Bring your site to life with animation, parallax backgrounds, and scroll effects&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;One-Click Deployment&lt;/strong&gt; - No servers. No databases. Only files.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
+
+&lt;p&gt;Academic comes with &lt;strong&gt;automatic day (light) and night (dark) mode&lt;/strong&gt; built-in. Alternatively, visitors can  choose their preferred mode - click the sun/moon icon in the top right of the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt; to see it in action! Day/night mode can also be disabled by the site admin in &lt;code&gt;params.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/themes/&#34; target=&#34;_blank&#34;&gt;Choose a stunning &lt;strong&gt;theme&lt;/strong&gt; and &lt;strong&gt;font&lt;/strong&gt;&lt;/a&gt; for your site. Themes are fully &lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#custom-theme&#34; target=&#34;_blank&#34;&gt;customizable&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+
+&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-web-browser&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;one-click install using your web browser (recommended)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-git&#34; target=&#34;_blank&#34;&gt;install on your computer using &lt;strong&gt;Git&lt;/strong&gt; with the Command Prompt/Terminal app&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-zip&#34; target=&#34;_blank&#34;&gt;install on your computer by downloading the &lt;strong&gt;ZIP files&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;install on your computer with &lt;strong&gt;RStudio&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Then &lt;a href=&#34;https://sourcethemes.com/academic/docs/get-started/&#34; target=&#34;_blank&#34;&gt;personalize and deploy your new site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;View the Update Guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; to help keep track of &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34;&gt;updates&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
+
+&lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Design and Analysis of a Single-Camera Omnistereo Sensor for Quadrotor Micro Aerial Vehicles (MAVs)</title>
+      <link>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;graphical_representation_of_the_paper-white_bg.png&#34; alt=&#34;Graphical representation of the article&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autonomous Quadrotor Flight Using Onboard RGB-D Visual Odometry</title>
+      <link>https://ubuntuslave.github.io/publication/2014-icra-uav/</link>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2014-icra-uav/</guid>
+      <description>&lt;p&gt;Four-dimensional path (blue) in a cluttered indoor environment (map) built online with the visual odometry algorithm using the RGB-D sensor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;ICRA2014-path_goals.png&#34; alt=&#34;Path for the quadrotor in the clutter map&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A 6-degree-of-freedom (6-DoF) pose localization method for a monocular camera in a 3D point-cloud dense map prebuilt by an RGB-D sensor.</title>
+      <link>https://ubuntuslave.github.io/publication/2013-robio-6dof/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2013-robio-6dof/</guid>
+      <description>
+
+&lt;h2 id=&#34;6-dof-pose-localization-algorithm&#34;&gt;6-DoF Pose Localization Algorithm&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;ROBIO2013-digest.png&#34; alt=&#34;Localization Pipeline&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The virtual view is constructed by projecting the map&amp;rsquo;s 3D points to a plane using the $t-1$ pose.&lt;/li&gt;
+&lt;li&gt;2D features are matched between the real and virtual images.&lt;/li&gt;
+&lt;li&gt;2D-to-3D point correspondences are obtained between the real camera&amp;rsquo;s 2D features and associated 3D points in the map.&lt;/li&gt;
+&lt;li&gt;After Perspective-n-Point (PnP) + RANSAC, the relative 6-DoF transformation between the real and virtual cameras is found.&lt;/li&gt;
+&lt;li&gt;A final frame transformation localizes the 6-DoF pose of the camera with respect to the map.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Single-Camera Omni-Stereo Vision System for 3D Perception of Micro Aerial Vehicles (MAVs)</title>
+      <link>https://ubuntuslave.github.io/publication/2013-iciea-omnistereo/</link>
+      <pubDate>Wed, 19 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2013-iciea-omnistereo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incremental Registration of RGB-D Images</title>
+      <link>https://ubuntuslave.github.io/publication/2012-icra-incremental/</link>
+      <pubDate>Mon, 14 May 2012 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2012-icra-incremental/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generating near-spherical range panoramas by fusing optical flow and stereo from a single-camera folded catadioptric rig</title>
+      <link>https://ubuntuslave.github.io/publication/2011-mvap-spherical_omnistereo/</link>
+      <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2011-mvap-spherical_omnistereo/</guid>
+      <description>
+
+&lt;h3 id=&#34;geometric-model&#34;&gt;Geometric Model&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;spherical_rig-geometric_model.png&#34; alt=&#34;Spherical omnistereo geometric model&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;non-single-viewpoint-non-svp-constraint&#34;&gt;Non Single Viewpoint (non-SVP) Constraint&lt;/h3&gt;
+
+&lt;p&gt;We set virtual camera $F$&amp;rsquo;  at cusp of caustic $C$ of viewpoints. The following animation exemplifies the respective projection $u$ of a point $P$ and the change in uncertainty ${\delta \varphi}$ due to the incidence angle (elevation angle ${\varphi}$).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;non-SVP_caustic-animation.gif&#34; alt=&#34;Non-SVP caustic due to projection angles&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fusing Optical Flow and Stereo in a Spherical Depth Panorama Using a Single-Camera Folded Catadioptric Rig</title>
+      <link>https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/</link>
+      <pubDate>Mon, 09 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;best_CV_paper-finalist-certificate.png&#34; alt=&#34;Best Vision Paper Award - Finalist&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

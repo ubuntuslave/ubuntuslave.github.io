@@ -1,24 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>calibration on Vision 2π</title>
+    <title>Calibration | Vision 2π</title>
     <link>https://ubuntuslave.github.io/tags/calibration/</link>
-    <description>Recent content in calibration on Vision 2π</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Carlos Jaramillo</copyright>
-    <lastBuildDate>Fri, 13 Oct 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ubuntuslave.github.io/tags/calibration/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://ubuntuslave.github.io/tags/calibration/index.xml" rel="self" type="application/rss+xml" />
+    <description>Calibration</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Wed, 23 May 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <title>Calibration</title>
+      <link>https://ubuntuslave.github.io/tags/calibration/</link>
+    </image>
     
     <item>
-      <title>GUMS: Generalized Unified Model for Stereo Omnidirectional Vision</title>
-      <link>https://ubuntuslave.github.io/project/gums/</link>
-      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubuntuslave.github.io/project/gums/</guid>
-      <description>An extension of the generalized unified model (GUM) originally applied to a single omnidirectional view.</description>
+      <title>Enhancing 3D Visual Odometry with Single-Camera Stereo Omnidirectional Systems</title>
+      <link>https://ubuntuslave.github.io/publication/2018-phd_thesis/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2018-phd_thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GUMS: A Generalized Unified Model for Stereo Omnidirectional Vision (Demonstrated Via a Folded Catadioptric System)</title>
+      <link>https://ubuntuslave.github.io/publication/2016-iros-gums/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2016-iros-gums/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;gums-coaxially_constrained-white_bg.png&#34; alt=&#34;Coaxially constrained GUMS&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;calibration-demonstration-video&#34;&gt;Calibration demonstration video:&lt;/h3&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/8c7fTHMSUFM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
   </channel>

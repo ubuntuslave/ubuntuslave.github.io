@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RGB-D | Vision 2π</title>
+    <link>https://ubuntuslave.github.io/tags/rgb-d/</link>
+      <atom:link href="https://ubuntuslave.github.io/tags/rgb-d/index.xml" rel="self" type="application/rss+xml" />
+    <description>RGB-D</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Sat, 31 May 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <title>RGB-D</title>
+      <link>https://ubuntuslave.github.io/tags/rgb-d/</link>
+    </image>
+    
+    <item>
+      <title>Autonomous Quadrotor Flight Using Onboard RGB-D Visual Odometry</title>
+      <link>https://ubuntuslave.github.io/publication/2014-icra-uav/</link>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2014-icra-uav/</guid>
+      <description>&lt;p&gt;Four-dimensional path (blue) in a cluttered indoor environment (map) built online with the visual odometry algorithm using the RGB-D sensor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;ICRA2014-path_goals.png&#34; alt=&#34;Path for the quadrotor in the clutter map&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A 6-degree-of-freedom (6-DoF) pose localization method for a monocular camera in a 3D point-cloud dense map prebuilt by an RGB-D sensor.</title>
+      <link>https://ubuntuslave.github.io/publication/2013-robio-6dof/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2013-robio-6dof/</guid>
+      <description>
+
+&lt;h2 id=&#34;6-dof-pose-localization-algorithm&#34;&gt;6-DoF Pose Localization Algorithm&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;ROBIO2013-digest.png&#34; alt=&#34;Localization Pipeline&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The virtual view is constructed by projecting the map&amp;rsquo;s 3D points to a plane using the $t-1$ pose.&lt;/li&gt;
+&lt;li&gt;2D features are matched between the real and virtual images.&lt;/li&gt;
+&lt;li&gt;2D-to-3D point correspondences are obtained between the real camera&amp;rsquo;s 2D features and associated 3D points in the map.&lt;/li&gt;
+&lt;li&gt;After Perspective-n-Point (PnP) + RANSAC, the relative 6-DoF transformation between the real and virtual cameras is found.&lt;/li&gt;
+&lt;li&gt;A final frame transformation localizes the 6-DoF pose of the camera with respect to the map.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Incremental Registration of RGB-D Images</title>
+      <link>https://ubuntuslave.github.io/publication/2012-icra-incremental/</link>
+      <pubDate>Mon, 14 May 2012 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2012-icra-incremental/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

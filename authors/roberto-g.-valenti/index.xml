@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roberto G. Valenti | Vision 2π</title>
+    <link>https://ubuntuslave.github.io/authors/roberto-g.-valenti/</link>
+      <atom:link href="https://ubuntuslave.github.io/authors/roberto-g.-valenti/index.xml" rel="self" type="application/rss+xml" />
+    <description>Roberto G. Valenti</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Sun, 09 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <title>Roberto G. Valenti</title>
+      <link>https://ubuntuslave.github.io/authors/roberto-g.-valenti/</link>
+    </image>
+    
+    <item>
+      <title>GUMS: A Generalized Unified Model for Stereo Omnidirectional Vision (Demonstrated Via a Folded Catadioptric System)</title>
+      <link>https://ubuntuslave.github.io/publication/2016-iros-gums/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2016-iros-gums/</guid>
+      <description>
+
+&lt;p&gt;&lt;img src=&#34;gums-coaxially_constrained-white_bg.png&#34; alt=&#34;Coaxially constrained GUMS&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;calibration-demonstration-video&#34;&gt;Calibration demonstration video:&lt;/h3&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/8c7fTHMSUFM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Design and Analysis of a Single-Camera Omnistereo Sensor for Quadrotor Micro Aerial Vehicles (MAVs)</title>
+      <link>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;graphical_representation_of_the_paper-white_bg.png&#34; alt=&#34;Graphical representation of the article&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Autonomous Quadrotor Flight Using Onboard RGB-D Visual Odometry</title>
+      <link>https://ubuntuslave.github.io/publication/2014-icra-uav/</link>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2014-icra-uav/</guid>
+      <description>&lt;p&gt;Four-dimensional path (blue) in a cluttered indoor environment (map) built online with the visual odometry algorithm using the RGB-D sensor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;ICRA2014-path_goals.png&#34; alt=&#34;Path for the quadrotor in the clutter map&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A 6-degree-of-freedom (6-DoF) pose localization method for a monocular camera in a 3D point-cloud dense map prebuilt by an RGB-D sensor.</title>
+      <link>https://ubuntuslave.github.io/publication/2013-robio-6dof/</link>
+      <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2013-robio-6dof/</guid>
+      <description>
+
+&lt;h2 id=&#34;6-dof-pose-localization-algorithm&#34;&gt;6-DoF Pose Localization Algorithm&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&#34;ROBIO2013-digest.png&#34; alt=&#34;Localization Pipeline&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The virtual view is constructed by projecting the map&amp;rsquo;s 3D points to a plane using the $t-1$ pose.&lt;/li&gt;
+&lt;li&gt;2D features are matched between the real and virtual images.&lt;/li&gt;
+&lt;li&gt;2D-to-3D point correspondences are obtained between the real camera&amp;rsquo;s 2D features and associated 3D points in the map.&lt;/li&gt;
+&lt;li&gt;After Perspective-n-Point (PnP) + RANSAC, the relative 6-DoF transformation between the real and virtual cameras is found.&lt;/li&gt;
+&lt;li&gt;A final frame transformation localizes the 6-DoF pose of the camera with respect to the map.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

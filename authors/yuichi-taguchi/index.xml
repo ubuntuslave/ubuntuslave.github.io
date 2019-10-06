@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yuichi Taguchi | Vision 2π</title>
+    <link>https://ubuntuslave.github.io/authors/yuichi-taguchi/</link>
+      <atom:link href="https://ubuntuslave.github.io/authors/yuichi-taguchi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuichi Taguchi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <title>Yuichi Taguchi</title>
+      <link>https://ubuntuslave.github.io/authors/yuichi-taguchi/</link>
+    </image>
+    
+    <item>
+      <title>Visual Odometry with a Single-Camera Stereo Omnidirectional System</title>
+      <link>https://ubuntuslave.github.io/publication/2019-mvap-sos_vo/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2019-mvap-sos_vo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Direct Multichannel Tracking</title>
+      <link>https://ubuntuslave.github.io/publication/2017-3dv-dmt/</link>
+      <pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2017-3dv-dmt/</guid>
+      <description>
+
+&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
+
+&lt;p&gt;The following figure explains the pipeline of the DMT system:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;DMT-pipeline-white_bg.png&#34; alt=&#34;DMT System Pipeline&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The single channel energy equation for photometric alignment is
+$$
+E(\xi ) = \sum\limits_{i = 1}^V {{{({{I_K}({{\bf{p}}_i}) - I(\omega ({{\bf{p}}_i},{{\bf{D}}_K}({{\bf{p}}_i}),\xi ))})}^2}}
+$$&lt;/p&gt;
+
+&lt;p&gt;where ${\bf \xi}$ is a $6$-vector representing the pose of the current image $I$ with respect to the reference image $I_K$ in Lie algebra $\mathfrak{se}(3)$,
+and $\omega$ is the 3D projective warp function that maps the pixel location ${\bf{p}}_i$ in the reference image according to its inverse depth $D_K ({\bf{p}}_i)$
+and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
+
+&lt;h3 id=&#34;qulitative-3d-reconstruction-demonstration-comparisson-to-the-single-channel-grascale-method-video&#34;&gt;Qulitative 3D reconstruction demonstration/comparisson to the single-channel (grascale) method video:&lt;/h3&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/WA55baA23Zs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

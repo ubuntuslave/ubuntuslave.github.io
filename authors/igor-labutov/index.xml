@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Igor Labutov | Vision 2π</title>
+    <link>https://ubuntuslave.github.io/authors/igor-labutov/</link>
+      <atom:link href="https://ubuntuslave.github.io/authors/igor-labutov/index.xml" rel="self" type="application/rss+xml" />
+    <description>Igor Labutov</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Sat, 17 Sep 2011 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <title>Igor Labutov</title>
+      <link>https://ubuntuslave.github.io/authors/igor-labutov/</link>
+    </image>
+    
+    <item>
+      <title>Generating near-spherical range panoramas by fusing optical flow and stereo from a single-camera folded catadioptric rig</title>
+      <link>https://ubuntuslave.github.io/publication/2011-mvap-spherical_omnistereo/</link>
+      <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2011-mvap-spherical_omnistereo/</guid>
+      <description>
+
+&lt;h3 id=&#34;geometric-model&#34;&gt;Geometric Model&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;spherical_rig-geometric_model.png&#34; alt=&#34;Spherical omnistereo geometric model&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;non-single-viewpoint-non-svp-constraint&#34;&gt;Non Single Viewpoint (non-SVP) Constraint&lt;/h3&gt;
+
+&lt;p&gt;We set virtual camera $F$&amp;rsquo;  at cusp of caustic $C$ of viewpoints. The following animation exemplifies the respective projection $u$ of a point $P$ and the change in uncertainty ${\delta \varphi}$ due to the incidence angle (elevation angle ${\varphi}$).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;non-SVP_caustic-animation.gif&#34; alt=&#34;Non-SVP caustic due to projection angles&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fusing Optical Flow and Stereo in a Spherical Depth Panorama Using a Single-Camera Folded Catadioptric Rig</title>
+      <link>https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/</link>
+      <pubDate>Mon, 09 May 2011 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;best_CV_paper-finalist-certificate.png&#34; alt=&#34;Best Vision Paper Award - Finalist&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

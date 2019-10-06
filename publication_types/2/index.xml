@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2 on Vision 2π</title>
+    <title>2 | Vision 2π</title>
     <link>https://ubuntuslave.github.io/publication_types/2/</link>
-    <description>Recent content in 2 on Vision 2π</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Carlos Jaramillo</copyright>
-    <lastBuildDate>Sun, 22 Sep 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://ubuntuslave.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://ubuntuslave.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <title>2</title>
+      <link>https://ubuntuslave.github.io/publication_types/2/</link>
+    </image>
     
     <item>
       <title>Visual Odometry with a Single-Camera Stereo Omnidirectional System</title>
-      <link>https://ubuntuslave.github.io/publication/2019-mvap-vo_sos/</link>
-      <pubDate>Sun, 22 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubuntuslave.github.io/publication/2019-mvap-vo_sos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Enhancing 3D Visual Odometry with Single-Camera Stereo Omnidirectional Systems</title>
-      <link>https://ubuntuslave.github.io/publication/2018-phd_thesis/</link>
-      <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://ubuntuslave.github.io/publication/2018-phd_thesis/</guid>
+      <link>https://ubuntuslave.github.io/publication/2019-mvap-sos_vo/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2019-mvap-sos_vo/</guid>
       <description></description>
     </item>
     
@@ -34,18 +24,28 @@
       <title>Design and Analysis of a Single-Camera Omnistereo Sensor for Quadrotor Micro Aerial Vehicles (MAVs)</title>
       <link>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</link>
       <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</guid>
-      <description></description>
+      <description>&lt;p&gt;&lt;img src=&#34;graphical_representation_of_the_paper-white_bg.png&#34; alt=&#34;Graphical representation of the article&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Generating near-spherical range panoramas by fusing optical flow and stereo from a single-camera folded catadioptric rig</title>
       <link>https://ubuntuslave.github.io/publication/2011-mvap-spherical_omnistereo/</link>
       <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://ubuntuslave.github.io/publication/2011-mvap-spherical_omnistereo/</guid>
-      <description></description>
+      <description>
+
+&lt;h3 id=&#34;geometric-model&#34;&gt;Geometric Model&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;spherical_rig-geometric_model.png&#34; alt=&#34;Spherical omnistereo geometric model&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;non-single-viewpoint-non-svp-constraint&#34;&gt;Non Single Viewpoint (non-SVP) Constraint&lt;/h3&gt;
+
+&lt;p&gt;We set virtual camera $F$&amp;rsquo;  at cusp of caustic $C$ of viewpoints. The following animation exemplifies the respective projection $u$ of a point $P$ and the change in uncertainty ${\delta \varphi}$ due to the incidence angle (elevation angle ${\varphi}$).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;non-SVP_caustic-animation.gif&#34; alt=&#34;Non-SVP caustic due to projection angles&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

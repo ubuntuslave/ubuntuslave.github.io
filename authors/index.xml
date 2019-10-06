@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Vision 2π</title>
+    <link>https://ubuntuslave.github.io/authors/</link>
+      <atom:link href="https://ubuntuslave.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <title>Authors</title>
+      <link>https://ubuntuslave.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>https://ubuntuslave.github.io/authors/carlos/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/authors/carlos/</guid>
+      <description>&lt;p&gt;Carlos Jaramillo is currently a &lt;em&gt;Perception Engineer&lt;/em&gt; at &lt;a href=&#34;http://www.aurora.aero&#34; target=&#34;_blank&#34;&gt;Aurora Flight Sciences, a Boeing Company&lt;/a&gt; working on aerospace autonomy. In 2018, he earned his doctorate degree in &lt;a href=&#34;http://cs.gc.cuny.edu&#34; target=&#34;_blank&#34;&gt;computer science&lt;/a&gt; at the &lt;a href=&#34;https://www.gc.cuny.edu&#34; target=&#34;_blank&#34;&gt;City University of New York&lt;/a&gt; under the supervision of &lt;a href=&#34;https://www.ccny.cuny.edu/profiles/jizhong-xiao&#34; target=&#34;_blank&#34;&gt;Dr. Jizhong Xiao&lt;/a&gt; at the &lt;a href=&#34;http://robotics.ccny.cuny.edu/&#34; target=&#34;_blank&#34;&gt;CCNY Robotics Lab&lt;/a&gt;. His &lt;a href=&#34;https://academicworks.cuny.edu/gc_etds/2787/&#34; target=&#34;_blank&#34;&gt;Ph.D thesis dissertation&lt;/a&gt; included research in topics of computer vision applied to robotic sensing for navigation, mobile autonomous robots and omnidirectional vision sensors.
+He enjoys researching science, hacking technology, and programming in any language that gets the job done, but his preferences are Python, C and C++.
+He has participated in various international events, conferences, and competitions.
+For instance, in 2009, he joined the
+FIXME WITH THE TAKEN OUT SENTENCES.
+He interned at Mitsubishi Electric Research Laboratories (&lt;a href=&#34;http://merl.com&#34; target=&#34;_blank&#34;&gt;MERL&lt;/a&gt;) for a year (2016-2017) where he was able to collaborate with &lt;a href=&#34;http://www.merl.com/people/taguchi&#34; target=&#34;_blank&#34;&gt;Dr. Yuichi Taguchi&lt;/a&gt; on developing algorithms for SLAM (simultaneous localization and mapping) and 3D reconstruction.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>J. Pablo Munoz</title>
+      <link>https://ubuntuslave.github.io/authors/j.-pablo-munoz/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/authors/j.-pablo-munoz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jizhong Xiao</title>
+      <link>https://ubuntuslave.github.io/authors/jizhong-xiao/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/authors/jizhong-xiao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Liang Yang</title>
+      <link>https://ubuntuslave.github.io/authors/liang-yang/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/authors/liang-yang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yuichi Taguchi</title>
+      <link>https://ubuntuslave.github.io/authors/yuichi-taguchi/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/authors/yuichi-taguchi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>admin</title>
+      <link>https://ubuntuslave.github.io/authors/admin/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/authors/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chen Feng</title>
+      <link>https://ubuntuslave.github.io/authors/chen-feng/</link>
+      <pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/authors/chen-feng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roberto G. Valenti</title>
+      <link>https://ubuntuslave.github.io/authors/roberto-g.-valenti/</link>
+      <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/authors/roberto-g.-valenti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ling Guo</title>
+      <link>https://ubuntuslave.github.io/authors/ling-guo/</link>
+      <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/authors/ling-guo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daniel Perea Strom</title>
+      <link>https://ubuntuslave.github.io/authors/daniel-perea-strom/</link>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/authors/daniel-perea-strom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ivan Dryanovski</title>
+      <link>https://ubuntuslave.github.io/authors/ivan-dryanovski/</link>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/authors/ivan-dryanovski/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Igor Labutov</title>
+      <link>https://ubuntuslave.github.io/authors/igor-labutov/</link>
+      <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/authors/igor-labutov/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

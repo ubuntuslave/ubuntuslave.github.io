@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Small UAVs | Vision 2π</title>
+    <link>https://ubuntuslave.github.io/tags/small-uavs/</link>
+      <atom:link href="https://ubuntuslave.github.io/tags/small-uavs/index.xml" rel="self" type="application/rss+xml" />
+    <description>Small UAVs</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Sat, 31 May 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <title>Small UAVs</title>
+      <link>https://ubuntuslave.github.io/tags/small-uavs/</link>
+    </image>
+    
+    <item>
+      <title>Autonomous Quadrotor Flight Using Onboard RGB-D Visual Odometry</title>
+      <link>https://ubuntuslave.github.io/publication/2014-icra-uav/</link>
+      <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2014-icra-uav/</guid>
+      <description>&lt;p&gt;Four-dimensional path (blue) in a cluttered indoor environment (map) built online with the visual odometry algorithm using the RGB-D sensor.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;ICRA2014-path_goals.png&#34; alt=&#34;Path for the quadrotor in the clutter map&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
