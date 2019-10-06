@@ -906,14 +906,6 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>https://ubuntuslave.github.io/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://ubuntuslave.github.io/project/external-project/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Academic: the website builder for Hugo</title>
       <link>https://ubuntuslave.github.io/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
@@ -1040,6 +1032,14 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <guid>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;graphical_representation_of_the_paper-white_bg.png&#34; alt=&#34;Graphical representation of the article&#34; /&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Machine Learning Project - Multidimensional Classification using LUTs</title>
+      <link>https://ubuntuslave.github.io/project/ml-classification_from_luts/</link>
+      <pubDate>Tue, 23 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/project/ml-classification_from_luts/</guid>
+      <description></description>
     </item>
     
     <item>

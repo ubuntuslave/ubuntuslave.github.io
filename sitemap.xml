@@ -208,16 +208,6 @@
   </url>
   
   <url>
-    <loc>https://ubuntuslave.github.io/tags/demo/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ubuntuslave.github.io/project/external-project/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ubuntuslave.github.io/tags/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
@@ -245,6 +235,16 @@
   <url>
     <loc>https://ubuntuslave.github.io/authors/ling-guo/</loc>
     <lastmod>2016-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ubuntuslave.github.io/tags/machine-learning/</loc>
+    <lastmod>2014-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ubuntuslave.github.io/project/ml-classification_from_luts/</loc>
+    <lastmod>2014-12-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning | Vision 2π</title>
+    <link>https://ubuntuslave.github.io/tags/machine-learning/</link>
+      <atom:link href="https://ubuntuslave.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine Learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Tue, 23 Dec 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <title>Machine Learning</title>
+      <link>https://ubuntuslave.github.io/tags/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Machine Learning Project - Multidimensional Classification using LUTs</title>
+      <link>https://ubuntuslave.github.io/project/ml-classification_from_luts/</link>
+      <pubDate>Tue, 23 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/project/ml-classification_from_luts/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
