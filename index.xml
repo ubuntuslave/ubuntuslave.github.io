@@ -1110,11 +1110,42 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
     </item>
     
     <item>
+      <title>CATA</title>
+      <link>https://ubuntuslave.github.io/project/cata/</link>
+      <pubDate>Sat, 04 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/project/cata/</guid>
+      <description>&lt;p&gt;In 2011, we engineered an autonomous vehicle with a simplified electrical architecture (focusing in safety and usability) and by adopting a new software architecture based on the open-source &lt;a href=&#34;http://ros.org&#34; target=&#34;_blank&#34;&gt;Robotics Operating System (ROS)&lt;/a&gt; framework, which enforces modularity and guarantees maintainability and reusability.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ubuntuslave.github.io/project/cata/CATA-design_report.pdf&#34;&gt;Download our Design Report&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Fusing Optical Flow and Stereo in a Spherical Depth Panorama Using a Single-Camera Folded Catadioptric Rig</title>
       <link>https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/</link>
       <pubDate>Mon, 09 May 2011 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;best_CV_paper-finalist-certificate.png&#34; alt=&#34;Best Vision Paper Award - Finalist&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CityALIEN</title>
+      <link>https://ubuntuslave.github.io/project/cityalien/</link>
+      <pubDate>Fri, 04 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/project/cityalien/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;CityALIEN-design_first_place_certificate.jpg&#34; alt=&#34;CityALIEN First Place Design Competition&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;During 2009-2010, I participated in the design of the City College&amp;rsquo;s IGVC 2010 rover (CityALIEN) by incorporating a novel approach based on stereo and omnidirectional vision.
+Our design won the &lt;a href=&#34;http://www.igvc.org/results/r2010.pdf&#34; target=&#34;_blank&#34;&gt;First Place in the Design Competition&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://ubuntuslave.github.io/project/cityalien/CityALIEN-design_report.pdf&#34;&gt;Download our Design Report&lt;/a&gt;&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/mHm1WIUUBzw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     
