@@ -1083,18 +1083,10 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Incremental Registration of RGB-D Images</title>
-      <link>https://ubuntuslave.github.io/publication/2012-icra-incremental/</link>
-      <pubDate>Mon, 14 May 2012 00:00:00 +0000</pubDate>
-      <guid>https://ubuntuslave.github.io/publication/2012-icra-incremental/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Generating near-spherical range panoramas by fusing optical flow and stereo from a single-camera folded catadioptric rig</title>
-      <link>https://ubuntuslave.github.io/publication/2011-mvap-spherical_omnistereo/</link>
-      <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>https://ubuntuslave.github.io/publication/2011-mvap-spherical_omnistereo/</guid>
+      <link>https://ubuntuslave.github.io/publication/2013-mvap-spherical_omnistereo/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2013-mvap-spherical_omnistereo/</guid>
       <description>
 
 &lt;h3 id=&#34;geometric-model&#34;&gt;Geometric Model&lt;/h3&gt;
@@ -1107,6 +1099,14 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;non-SVP_caustic-animation.gif&#34; alt=&#34;Non-SVP caustic due to projection angles&#34; /&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Incremental Registration of RGB-D Images</title>
+      <link>https://ubuntuslave.github.io/publication/2012-icra-incremental/</link>
+      <pubDate>Mon, 14 May 2012 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2012-icra-incremental/</guid>
+      <description></description>
     </item>
     
     <item>

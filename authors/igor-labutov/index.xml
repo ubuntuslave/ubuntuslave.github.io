@@ -5,7 +5,7 @@
     <link>https://ubuntuslave.github.io/authors/igor-labutov/</link>
       <atom:link href="https://ubuntuslave.github.io/authors/igor-labutov/index.xml" rel="self" type="application/rss+xml" />
     <description>Igor Labutov</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Sat, 17 Sep 2011 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Tue, 01 Jan 2013 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ubuntuslave.github.io/img/icon.png</url>
       <title>Igor Labutov</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>Generating near-spherical range panoramas by fusing optical flow and stereo from a single-camera folded catadioptric rig</title>
-      <link>https://ubuntuslave.github.io/publication/2011-mvap-spherical_omnistereo/</link>
-      <pubDate>Sat, 17 Sep 2011 00:00:00 +0000</pubDate>
-      <guid>https://ubuntuslave.github.io/publication/2011-mvap-spherical_omnistereo/</guid>
+      <link>https://ubuntuslave.github.io/publication/2013-mvap-spherical_omnistereo/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/publication/2013-mvap-spherical_omnistereo/</guid>
       <description>
 
 &lt;h3 id=&#34;geometric-model&#34;&gt;Geometric Model&lt;/h3&gt;
