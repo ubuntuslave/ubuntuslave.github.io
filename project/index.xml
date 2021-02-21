@@ -329,8 +329,8 @@ All the calibration images and &#34;pickles&#34; can be found here:
 &lt;p&gt;When using this dataset in your research, please cite:&lt;/p&gt;
 
 &lt;div&gt;&lt;p&gt;
-@ARTICLE{&lt;a href=&#34;http://www.to_do.pdf&#34;&gt;Jaramillo2019MVAP&lt;/a&gt;,&lt;br/&gt;
-&amp;nbsp; author = {&lt;a href=&#34;http://me.vision2pi.com&#34; target=&#34;blank&#34;&gt;Carlos Jaramillo&lt;/a&gt; 
+@ARTICLE{&lt;a href=&#34;http://dx.doi.org/10.1007/s00138-019-01041-9&#34;&gt;Jaramillo2019MVAP&lt;/a&gt;,&lt;br/&gt;
+&amp;nbsp; author = {&lt;a href=&#34;http://ubuntuslave.github.io&#34; target=&#34;blank&#34;&gt;Carlos Jaramillo&lt;/a&gt; 
 and 
 &lt;a href=&#34;https://ericlyang.github.io&#34; target=&#34;blank&#34;&gt;Liang Yang&lt;/a&gt; 
 and 
