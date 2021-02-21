@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vision 2π</title>
+    <title>Omnistereo</title>
     <link>https://ubuntuslave.github.io/</link>
       <atom:link href="https://ubuntuslave.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Vision 2π</description>
+    <description>Omnistereo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Carlos Jaramillo</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ubuntuslave.github.io/img/icon.png</url>
-      <title>Vision 2π</title>
+      <title>Omnistereo</title>
       <link>https://ubuntuslave.github.io/</link>
     </image>
     
