@@ -43,5 +43,25 @@ Our design won the &lt;a href=&#34;http://www.igvc.org/results/r2010.pdf&#34; ta
 </description>
     </item>
     
+    <item>
+      <title>Surveyor SRV-1 Driver and GUI Remote Control</title>
+      <link>https://ubuntuslave.github.io/project/surveyor/</link>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/project/surveyor/</guid>
+      <description>
+
+&lt;p&gt;In 2009, as part of &lt;a href=&#34;http://dreuarchive.cra.org/2009/Jaramillo/DREU/project.php&#34; target=&#34;_blank&#34;&gt;my Research Experience for Undergraduates&lt;/a&gt;, I developed software for different types of small, educational robots, such as the Mindstorms Robotics Invention System, IPRE Scribbler, and Surveyor SRV-1&lt;/p&gt;
+
+&lt;h3 id=&#34;source-code&#34;&gt;Source Code:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ubuntuslave.github.io/Surveyor_Driver&#34; target=&#34;_blank&#34;&gt;Player/Stage Driver for the Surveyor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ubuntuslave.github.io/SRVjoy&#34; target=&#34;_blank&#34;&gt;Player/Stage control GUI for the Surveyor (or any Player-based mobile robot) using the QT Framework&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;surveyor_on_stage.png&#34; alt=&#34;Simulated SRV-1 robot on Stage&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>
