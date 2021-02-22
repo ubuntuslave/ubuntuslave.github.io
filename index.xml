@@ -1162,7 +1162,7 @@ Our design won the &lt;a href=&#34;http://www.igvc.org/results/r2010.pdf&#34; ta
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://ubuntuslave.github.io/Surveyor_Driver&#34; target=&#34;_blank&#34;&gt;Player/Stage Driver for the Surveyor&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://ubuntuslave.github.io/SRVjoy&#34; target=&#34;_blank&#34;&gt;Player/Stage control GUI for the Surveyor (or any Player-based mobile robot) using the QT Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ubuntuslave.github.io/SRVjoy&#34; target=&#34;_blank&#34;&gt;Player/Stage control GUI for the Surveyor (SRVjoy)&lt;/a&gt; or any Player-based mobile robot&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&#34;surveyor_on_stage.png&#34; alt=&#34;Simulated SRV-1 robot on Stage&#34; /&gt;&lt;/p&gt;
