@@ -59,7 +59,8 @@ Our design won the &lt;a href=&#34;http://www.igvc.org/results/r2010.pdf&#34; ta
 &lt;li&gt;&lt;a href=&#34;http://ubuntuslave.github.io/SRVjoy&#34; target=&#34;_blank&#34;&gt;Player/Stage control GUI for the Surveyor (SRVjoy)&lt;/a&gt; or any Player-based mobile robot&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;surveyor_on_stage.png&#34; alt=&#34;Simulated SRV-1 robot on Stage&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;This is an example of the simulated SRV-1 robot on the occupancy grid (on Stage):
+&lt;img src=&#34;surveyor_on_stage.png&#34; alt=&#34;Simulated SRV-1 robot on Stage&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
