@@ -5,12 +5,28 @@
     <link>https://ubuntuslave.github.io/tags/</link>
       <atom:link href="https://ubuntuslave.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019-2021 Carlos Jaramillo</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019-2021 Carlos Jaramillo</copyright><lastBuildDate>Mon, 24 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ubuntuslave.github.io/img/icon.png</url>
       <title>Tags</title>
       <link>https://ubuntuslave.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>Maritime</title>
+      <link>https://ubuntuslave.github.io/tags/maritime/</link>
+      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/tags/maritime/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Professional</title>
+      <link>https://ubuntuslave.github.io/tags/professional/</link>
+      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/tags/professional/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Camera Tracking</title>
@@ -105,14 +121,6 @@
       <link>https://ubuntuslave.github.io/tags/slam/</link>
       <pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/tags/slam/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Academic</title>
-      <link>https://ubuntuslave.github.io/tags/academic/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://ubuntuslave.github.io/tags/academic/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,21 @@
     <link>https://ubuntuslave.github.io/authors/carlos/</link>
       <atom:link href="https://ubuntuslave.github.io/authors/carlos/index.xml" rel="self" type="application/rss+xml" />
     <description>Omnistereo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019-2021 Carlos Jaramillo</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019-2021 Carlos Jaramillo</copyright><lastBuildDate>Mon, 24 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ubuntuslave.github.io/img/icon.png</url>
       <title>Omnistereo</title>
       <link>https://ubuntuslave.github.io/authors/carlos/</link>
     </image>
+    
+    <item>
+      <title>Ask a Crew Member Monday</title>
+      <link>https://ubuntuslave.github.io/post/smr-acmm/</link>
+      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/post/smr-acmm/</guid>
+      <description>&lt;iframe src=&#34;https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7051088693016608768&#34; height=&#34;1280&#34; width=&#34;100%&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;&#34; title=&#34;Sea Machines&#39;ACCM Episode 1 - Embedded post&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>Visual Odometry with a Single-Camera Stereo Omnidirectional System</title>

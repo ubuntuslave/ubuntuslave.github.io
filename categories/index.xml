@@ -5,7 +5,7 @@
     <link>https://ubuntuslave.github.io/categories/</link>
       <atom:link href="https://ubuntuslave.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019-2021 Carlos Jaramillo</copyright><lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019-2021 Carlos Jaramillo</copyright><lastBuildDate>Mon, 24 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ubuntuslave.github.io/img/icon.png</url>
       <title>Categories</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>Demo</title>
-      <link>https://ubuntuslave.github.io/categories/demo/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://ubuntuslave.github.io/categories/demo/</guid>
+      <title>Interview</title>
+      <link>https://ubuntuslave.github.io/categories/interview/</link>
+      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/categories/interview/</guid>
       <description></description>
     </item>
     

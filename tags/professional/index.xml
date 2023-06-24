@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Professional | Omnistereo</title>
+    <link>https://ubuntuslave.github.io/tags/professional/</link>
+      <atom:link href="https://ubuntuslave.github.io/tags/professional/index.xml" rel="self" type="application/rss+xml" />
+    <description>Professional</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019-2021 Carlos Jaramillo</copyright><lastBuildDate>Mon, 24 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <title>Professional</title>
+      <link>https://ubuntuslave.github.io/tags/professional/</link>
+    </image>
+    
+    <item>
+      <title>Ask a Crew Member Monday</title>
+      <link>https://ubuntuslave.github.io/post/smr-acmm/</link>
+      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/post/smr-acmm/</guid>
+      <description>&lt;iframe src=&#34;https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7051088693016608768&#34; height=&#34;1280&#34; width=&#34;100%&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;&#34; title=&#34;Sea Machines&#39;ACCM Episode 1 - Embedded post&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

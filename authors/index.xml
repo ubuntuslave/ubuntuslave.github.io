@@ -5,7 +5,7 @@
     <link>https://ubuntuslave.github.io/authors/</link>
       <atom:link href="https://ubuntuslave.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019-2021 Carlos Jaramillo</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019-2021 Carlos Jaramillo</copyright><lastBuildDate>Mon, 24 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://ubuntuslave.github.io/img/icon.png</url>
       <title>Authors</title>
@@ -15,14 +15,14 @@
     <item>
       <title></title>
       <link>https://ubuntuslave.github.io/authors/carlos/</link>
-      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/authors/carlos/</guid>
-      <description>&lt;p&gt;I am currently working as a Senior &lt;em&gt;Autonomy Engineer&lt;/em&gt; at &lt;a href=&#34;https://sea-machines.com&#34; target=&#34;_blank&#34;&gt;Sea Machines&lt;/a&gt;, where I am developing practical path-planning algorithms to assist the autonomous navigation of manned ships.&lt;/p&gt;
+      <description>&lt;p&gt;I am currently working as a Senior &lt;em&gt;Autonomy Engineer&lt;/em&gt; at &lt;a href=&#34;https://sea-machines.com&#34; target=&#34;_blank&#34;&gt;Sea Machines&lt;/a&gt;, where I am developing practical path-planning algorithms to assist the autonomous navigation of manned ships (e.g., the &lt;a href=&#34;https://sea-machines.com/sm300/&#34; target=&#34;_blank&#34;&gt;SM-300&lt;/a&gt;), and target detection &amp;amp; classification with monocular computer vision (&lt;a href=&#34;https://sea-machines.com/ai-ris/&#34; target=&#34;_blank&#34;&gt;AI-ris&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;&lt;div style=&#34;float: right; margin-left: 0px;&#34;&gt;
   &lt;img src=&#34;img/gita-dance-80x.gif&#34; alt=&#34;gita&#34; width=&#34;60&#34;/&gt;
 &lt;/div&gt;
-I worked as a Senior &lt;em&gt;Robotics Engineer&lt;/em&gt; at &lt;a href=&#34;http://www.piaggiofastforward.com&#34; target=&#34;_blank&#34;&gt;Piaggio Fast Forward (PFF)&lt;/a&gt;, where we are building the future of personal mobile carrier robots, &lt;a href=&#34;https://www.mygita.com&#34; target=&#34;_blank&#34;&gt;gita&lt;/a&gt;.&lt;/p&gt;
+I worked as a Senior &lt;em&gt;Robotics Engineer&lt;/em&gt; at &lt;a href=&#34;http://www.piaggiofastforward.com&#34; target=&#34;_blank&#34;&gt;Piaggio Fast Forward (PFF)&lt;/a&gt;, where we were building the future of personal mobile carrier robots, &lt;a href=&#34;https://www.mygita.com&#34; target=&#34;_blank&#34;&gt;gita&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Previously, I was a &lt;em&gt;Perception Engineer&lt;/em&gt; at &lt;a href=&#34;http://www.aurora.aero&#34; target=&#34;_blank&#34;&gt;Aurora Flight Sciences, a Boeing Company&lt;/a&gt; working on aerospace autonomy. In 2018, I earned my doctorate degree in &lt;a href=&#34;http://cs.gc.cuny.edu&#34; target=&#34;_blank&#34;&gt;computer science&lt;/a&gt; at the &lt;a href=&#34;https://www.gc.cuny.edu&#34; target=&#34;_blank&#34;&gt;City University of New York&lt;/a&gt; under the supervision of &lt;a href=&#34;https://www.ccny.cuny.edu/profiles/jizhong-xiao&#34; target=&#34;_blank&#34;&gt;Dr. Jizhong Xiao&lt;/a&gt; at the &lt;a href=&#34;http://robotics.ccny.cuny.edu/&#34; target=&#34;_blank&#34;&gt;CCNY Robotics Lab&lt;/a&gt;. My &lt;a href=&#34;https://academicworks.cuny.edu/gc_etds/2787/&#34; target=&#34;_blank&#34;&gt;Ph.D thesis dissertation&lt;/a&gt; included research in topics of computer vision applied to robotic sensing for navigation, mobile autonomous robots and omnidirectional vision sensors.
 I enjoy researching science, hacking technology, and programming in any language that gets the job done, but my preferences are Python, C and modern C++.
@@ -61,14 +61,6 @@ I interned at Mitsubishi Electric Research Laboratories (&lt;a href=&#34;http://
       <link>https://ubuntuslave.github.io/authors/yuichi-taguchi/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/authors/yuichi-taguchi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>admin</title>
-      <link>https://ubuntuslave.github.io/authors/admin/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://ubuntuslave.github.io/authors/admin/</guid>
       <description></description>
     </item>
     
