@@ -5,9 +5,9 @@
     <link>https://ubuntuslave.github.io/publication/</link>
       <atom:link href="https://ubuntuslave.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019-2021 Carlos Jaramillo</copyright><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <url>https://ubuntuslave.github.io/media/icon_hu_dc2a81db4583f410.png</url>
       <title>Publications</title>
       <link>https://ubuntuslave.github.io/publication/</link>
     </image>
@@ -33,29 +33,45 @@
       <link>https://ubuntuslave.github.io/publication/2017-3dv-dmt/</link>
       <pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2017-3dv-dmt/</guid>
-      <description>
-
-&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
-
+      <description>&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
 &lt;p&gt;The following figure explains the pipeline of the DMT system:&lt;/p&gt;
+&lt;p&gt;
 
-&lt;p&gt;&lt;img src=&#34;DMT-pipeline-white_bg.png&#34; alt=&#34;DMT System Pipeline&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The single channel energy equation for photometric alignment is
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;DMT System Pipeline&#34; srcset=&#34;
+               /publication/2017-3dv-dmt/DMT-pipeline-white_bg_hu_21ec5c9d009a68ff.webp 400w,
+               /publication/2017-3dv-dmt/DMT-pipeline-white_bg_hu_c867631336249603.webp 760w,
+               /publication/2017-3dv-dmt/DMT-pipeline-white_bg_hu_73d1e70c2db9b3cf.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2017-3dv-dmt/DMT-pipeline-white_bg_hu_21ec5c9d009a68ff.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;457&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 $$
 E(\xi ) = \sum\limits_{i = 1}^V {{{({{I_K}({{\bf{p}}_i}) - I(\omega ({{\bf{p}}_i},{{\bf{D}}_K}({{\bf{p}}_i}),\xi ))})}^2}}
-$$&lt;/p&gt;
-
-&lt;p&gt;where ${\bf \xi}$ is a $6$-vector representing the pose of the current image $I$ with respect to the reference image $I_K$ in Lie algebra $\mathfrak{se}(3)$,
+$$&lt;p&gt;where ${\bf \xi}$ is a $6$-vector representing the pose of the current image $I$ with respect to the reference image $I_K$ in Lie algebra $\mathfrak{se}(3)$,
 and $\omega$ is the 3D projective warp function that maps the pixel location ${\bf{p}}_i$ in the reference image according to its inverse depth $D_K ({\bf{p}}_i)$
 and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
-
-&lt;h3 id=&#34;qulitative-3d-reconstruction-demonstration-comparisson-to-the-single-channel-grascale-method-video&#34;&gt;Qulitative 3D reconstruction demonstration/comparisson to the single-channel (grascale) method video:&lt;/h3&gt;
-
-
+&lt;h3 id=&#34;qulitative-3d-reconstruction-demonstrationcomparisson-to-the-single-channel-grascale-method-video&#34;&gt;Qulitative 3D reconstruction demonstration/comparisson to the single-channel (grascale) method video:&lt;/h3&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/WA55baA23Zs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/WA55baA23Zs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 </description>
     </item>
@@ -65,16 +81,38 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <link>https://ubuntuslave.github.io/publication/2016-iros-gums/</link>
       <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2016-iros-gums/</guid>
-      <description>
+      <description>&lt;p&gt;
 
-&lt;p&gt;&lt;img src=&#34;gums-coaxially_constrained-white_bg.png&#34; alt=&#34;Coaxially constrained GUMS&#34; /&gt;&lt;/p&gt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Coaxially constrained GUMS&#34; srcset=&#34;
+               /publication/2016-iros-gums/gums-coaxially_constrained-white_bg_hu_db9b2e4b71237e82.webp 400w,
+               /publication/2016-iros-gums/gums-coaxially_constrained-white_bg_hu_1a5bea35f01e9f1d.webp 760w,
+               /publication/2016-iros-gums/gums-coaxially_constrained-white_bg_hu_94943991e11af644.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2016-iros-gums/gums-coaxially_constrained-white_bg_hu_db9b2e4b71237e82.webp&#34;
+               width=&#34;680&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;calibration-demonstration-video&#34;&gt;Calibration demonstration video:&lt;/h3&gt;
-
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/8c7fTHMSUFM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/8c7fTHMSUFM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 </description>
     </item>
@@ -84,7 +122,34 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <link>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</link>
       <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;graphical_representation_of_the_paper-white_bg.png&#34; alt=&#34;Graphical representation of the article&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graphical representation of the article&#34; srcset=&#34;
+               /publication/2016-sensors-omnistereo_sensor/graphical_representation_of_the_paper-white_bg_hu_113eae9c25ac4bb9.webp 400w,
+               /publication/2016-sensors-omnistereo_sensor/graphical_representation_of_the_paper-white_bg_hu_8f52202f6ae32d.webp 760w,
+               /publication/2016-sensors-omnistereo_sensor/graphical_representation_of_the_paper-white_bg_hu_eac9962770220c69.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/graphical_representation_of_the_paper-white_bg_hu_113eae9c25ac4bb9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;483&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -94,8 +159,34 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2014-icra-uav/</guid>
       <description>&lt;p&gt;Four-dimensional path (blue) in a cluttered indoor environment (map) built online with the visual odometry algorithm using the RGB-D sensor.&lt;/p&gt;
+&lt;p&gt;
 
-&lt;p&gt;&lt;img src=&#34;ICRA2014-path_goals.png&#34; alt=&#34;Path for the quadrotor in the clutter map&#34; /&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Path for the quadrotor in the clutter map&#34; srcset=&#34;
+               /publication/2014-icra-uav/ICRA2014-path_goals_hu_2ddbd874d9df12c1.webp 400w,
+               /publication/2014-icra-uav/ICRA2014-path_goals_hu_3fe108b1aebcc57f.webp 760w,
+               /publication/2014-icra-uav/ICRA2014-path_goals_hu_c16b992f7cfe0a5e.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2014-icra-uav/ICRA2014-path_goals_hu_2ddbd874d9df12c1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;499&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -104,12 +195,35 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <link>https://ubuntuslave.github.io/publication/2013-robio-6dof/</link>
       <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2013-robio-6dof/</guid>
-      <description>
+      <description>&lt;h2 id=&#34;6-dof-pose-localization-algorithm&#34;&gt;6-DoF Pose Localization Algorithm&lt;/h2&gt;
+&lt;p&gt;
 
-&lt;h2 id=&#34;6-dof-pose-localization-algorithm&#34;&gt;6-DoF Pose Localization Algorithm&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;ROBIO2013-digest.png&#34; alt=&#34;Localization Pipeline&#34; /&gt;&lt;/p&gt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Localization Pipeline&#34; srcset=&#34;
+               /publication/2013-robio-6dof/ROBIO2013-digest_hu_bb49a8863f1e626b.webp 400w,
+               /publication/2013-robio-6dof/ROBIO2013-digest_hu_b5d984583778ce4c.webp 760w,
+               /publication/2013-robio-6dof/ROBIO2013-digest_hu_f55520761481be8.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2013-robio-6dof/ROBIO2013-digest_hu_bb49a8863f1e626b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;223&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;The virtual view is constructed by projecting the map&amp;rsquo;s 3D points to a plane using the $t-1$ pose.&lt;/li&gt;
 &lt;li&gt;2D features are matched between the real and virtual images.&lt;/li&gt;
@@ -133,17 +247,60 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <link>https://ubuntuslave.github.io/publication/2013-mvap-spherical_omnistereo/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2013-mvap-spherical_omnistereo/</guid>
-      <description>
+      <description>&lt;h3 id=&#34;geometric-model&#34;&gt;Geometric Model&lt;/h3&gt;
+&lt;p&gt;
 
-&lt;h3 id=&#34;geometric-model&#34;&gt;Geometric Model&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;spherical_rig-geometric_model.png&#34; alt=&#34;Spherical omnistereo geometric model&#34; /&gt;&lt;/p&gt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Spherical omnistereo geometric model&#34; srcset=&#34;
+               /publication/2013-mvap-spherical_omnistereo/spherical_rig-geometric_model_hu_b58ff66e674994ef.webp 400w,
+               /publication/2013-mvap-spherical_omnistereo/spherical_rig-geometric_model_hu_6884c7ed1b232677.webp 760w,
+               /publication/2013-mvap-spherical_omnistereo/spherical_rig-geometric_model_hu_7c4ea2de29b3a9fd.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2013-mvap-spherical_omnistereo/spherical_rig-geometric_model_hu_b58ff66e674994ef.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;706&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;non-single-viewpoint-non-svp-constraint&#34;&gt;Non Single Viewpoint (non-SVP) Constraint&lt;/h3&gt;
-
 &lt;p&gt;We set virtual camera $F$&amp;rsquo;  at cusp of caustic $C$ of viewpoints. The following animation exemplifies the respective projection $u$ of a point $P$ and the change in uncertainty ${\delta \varphi}$ due to the incidence angle (elevation angle ${\varphi}$).&lt;/p&gt;
+&lt;p&gt;
 
-&lt;p&gt;&lt;img src=&#34;non-SVP_caustic-animation.gif&#34; alt=&#34;Non-SVP caustic due to projection angles&#34; /&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Non-SVP caustic due to projection angles&#34;
+           src=&#34;https://ubuntuslave.github.io/publication/2013-mvap-spherical_omnistereo/non-SVP_caustic-animation.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -160,7 +317,34 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <link>https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/</link>
       <pubDate>Mon, 09 May 2011 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;best_CV_paper-finalist-certificate.png&#34; alt=&#34;Best Vision Paper Award - Finalist&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Best Vision Paper Award - Finalist&#34; srcset=&#34;
+               /publication/2011-icra-fusing_optical_flow/best_CV_paper-finalist-certificate_hu_c546d221be2eae64.webp 400w,
+               /publication/2011-icra-fusing_optical_flow/best_CV_paper-finalist-certificate_hu_a75595a684215e1e.webp 760w,
+               /publication/2011-icra-fusing_optical_flow/best_CV_paper-finalist-certificate_hu_e0a63d547dba31e.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/best_CV_paper-finalist-certificate_hu_c546d221be2eae64.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;589&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     

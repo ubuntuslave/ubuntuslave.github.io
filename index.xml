@@ -5,34 +5,19 @@
     <link>https://ubuntuslave.github.io/</link>
       <atom:link href="https://ubuntuslave.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Omnistereo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019-2021 Carlos Jaramillo</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Oct 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://ubuntuslave.github.io/img/icon.png</url>
+      <url>https://ubuntuslave.github.io/media/icon_hu_dc2a81db4583f410.png</url>
       <title>Omnistereo</title>
       <link>https://ubuntuslave.github.io/</link>
     </image>
     
     <item>
-      <title>Example Talk</title>
-      <link>https://ubuntuslave.github.io/talk/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>https://ubuntuslave.github.io/talk/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <title>Experience</title>
+      <link>https://ubuntuslave.github.io/experience/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://ubuntuslave.github.io/experience/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -40,8 +25,7 @@
       <link>https://ubuntuslave.github.io/post/smr-acmm/</link>
       <pubDate>Mon, 24 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/post/smr-acmm/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/posts/sea-machines_acmm-ep-1-activity-7051222308392222720-78Xl?utm_source=share&amp;amp;utm_medium=member_desktop&#34; target=&#34;_blank&#34;&gt;Link to ACCM Episode 1&lt;/a&gt;, where Carlos, SMR&amp;rsquo;s Senior Autonomy Engineer, tells us what is, in his opinion, the most surprising way that autonomy is making the maritime sector kinder to our planet.&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/posts/sea-machines_acmm-ep-1-activity-7051222308392222720-78Xl?utm_source=share&amp;amp;utm_medium=member_desktop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Link to ACCM Episode 1&lt;/a&gt;, where Carlos, SMR&amp;rsquo;s Senior Autonomy Engineer, tells us what is, in his opinion, the most surprising way that autonomy is making the maritime sector kinder to our planet.&lt;/p&gt;
 &lt;iframe src=&#34;https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7051088693016608768&#34; height=&#34;1280&#34; width=&#34;100%&#34; frameborder=&#34;0&#34; allowfullscreen=&#34;&#34; title=&#34;Sea Machines&#39;ACCM Episode 1 - Embedded post&#34;&gt;&lt;/iframe&gt;
 </description>
     </item>
@@ -51,22 +35,14 @@
       <link>https://ubuntuslave.github.io/project/vo_sos/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/project/vo_sos/</guid>
-      <description>
-
-&lt;h2 id=&#34;demonstration-video-using-sequences-from-grand-central-terminal-gct&#34;&gt;Demonstration video using sequences from Grand Central Terminal (GCT):&lt;/h2&gt;
-
-
+      <description>&lt;h2 id=&#34;demonstration-video-using-sequences-from-grand-central-terminal-gct&#34;&gt;Demonstration video using sequences from Grand Central Terminal (GCT):&lt;/h2&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/c5tyHqEkKQA&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/c5tyHqEkKQA?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 &lt;h2 id=&#34;source-code&#34;&gt;Source code&lt;/h2&gt;
-
-&lt;p&gt;The demonstration code can be found at the git repository for &lt;a href=&#34;https://github.com/ubuntuslave/vo_single_camera_sos&#34; target=&#34;_blank&#34;&gt;vo_single_camera_sos&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;The demonstration code can be found at the git repository for &lt;a href=&#34;https://github.com/ubuntuslave/vo_single_camera_sos&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;vo_single_camera_sos&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;calibration-files&#34;&gt;Calibration Files&lt;/h2&gt;
-
 &lt;!-- FUTURE:
 All the calibration images and &#34;pickles&#34; can be found here:
 
@@ -75,43 +51,36 @@ All the calibration images and &#34;pickles&#34; can be found here:
 - [synthetic](ftp://robot:robot@134.74.16.75/datasets/calibration/synthetic)
  
 --&gt;
-
-&lt;h2 id=&#34;data-sets-a-name-datasets-a&#34;&gt;Data sets&lt;a name=&#34;datasets&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
-
+&lt;h2 id=&#34;data-sets&#34;&gt;Data sets&lt;a name=&#34;datasets&#34;&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Each sequence has 2 sub-folders:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;omni&lt;/code&gt; pertaining the omnistereo data&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;rgbd&lt;/code&gt; pertaining the RGB-D camera data
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;rgbd&lt;/code&gt; pertaining the RGB-D camera data&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h3 id=&#34;remarks-about-the-ground-truth-data-used-as-reference&#34;&gt;Remarks about the &amp;ldquo;ground-truth&amp;rdquo; data used as reference&lt;/h3&gt;
-
 &lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Ground-truth poses obey the &lt;a href=&#34;http://vision.in.tum.de/data/datasets/rgbd-dataset/file_formats&#34; target=&#34;_blank&#34;&gt;TUM format&lt;/a&gt;, such that each line is &lt;em&gt;spaced-separated&lt;/em&gt; encoding:&lt;/p&gt;
-
+&lt;li&gt;Ground-truth poses obey the &lt;a href=&#34;http://vision.in.tum.de/data/datasets/rgbd-dataset/file_formats&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TUM format&lt;/a&gt;, such that each line is &lt;em&gt;spaced-separated&lt;/em&gt; encoding:&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;time stamp  $t_x$  $t_y$  $t_z$  $q_x$  $q_y$  $q_z$  $q_w$&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;For each sequence, the &lt;code&gt;gt_TUM.txt&lt;/code&gt; is the &lt;em&gt;raw&lt;/em&gt; ground-truth data, which was obtained from the motion capture system. Thus, these poses are given wrt our VICON mocap&amp;rsquo;s frame, $[\rm{V}]$.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;After running the &lt;code&gt;demo_vo_*.py&lt;/code&gt; for some sequence, the resulting files will be given inside the &lt;code&gt;results&lt;/code&gt; subfolder within the sequence path:&lt;/p&gt;
-
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;For each sequence, the &lt;code&gt;gt_TUM.txt&lt;/code&gt; is the &lt;em&gt;raw&lt;/em&gt; ground-truth data, which was obtained from the motion capture system. Thus, these poses are given wrt our VICON mocap&amp;rsquo;s frame, $[\rm{V}]$.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;After running the &lt;code&gt;demo_vo_*.py&lt;/code&gt; for some sequence, the resulting files will be given inside the &lt;code&gt;results&lt;/code&gt; subfolder within the sequence path:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;estimated_frame_poses_TUM.txt&lt;/code&gt; has the estimated poses ${}_{[{{\rm{C}}_i}]}^{[{\rm{K}_0}]}{\bf{\tilde T}}$ of the sequence wrt the initial camera frame, $[\rm{K}_0]$.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;gt_associated_frame_poses_TUM.txt&lt;/code&gt; has the associated ground-truth poses for the registered frames. They are already transformed into the camera frame, $[\textbf{C}]$, via the appropriate &lt;em&gt;hand-eye transformation&lt;/em&gt;, so that the pose is given as ${}_{[{{\rm{C}}_i}]}^{[{\rm{K}_0}]}{\bf{T}}$.
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;For the &lt;strong&gt;real-life&lt;/strong&gt; sequences of the RGB-D camera, the required &lt;em&gt;hand-eye transformation&lt;/em&gt; can be downloaded from this link &lt;a href=&#34;https://www.dropbox.com/s/0322px08wdyirz1/rgbd_hand_eye_transformation.txt?dl=0&#34; target=&#34;_blank&#34;&gt;rgbd_hand_eye_transformation.txt&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;gt_associated_frame_poses_TUM.txt&lt;/code&gt; has the associated ground-truth poses for the registered frames. They are already transformed into the camera frame, $[\textbf{C}]$, via the appropriate &lt;em&gt;hand-eye transformation&lt;/em&gt;, so that the pose is given as ${}_{[{{\rm{C}}_i}]}^{[{\rm{K}_0}]}{\bf{T}}$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;For the &lt;strong&gt;real-life&lt;/strong&gt; sequences of the RGB-D camera, the required &lt;em&gt;hand-eye transformation&lt;/em&gt; can be downloaded from this link &lt;a href=&#34;https://www.dropbox.com/s/0322px08wdyirz1/rgbd_hand_eye_transformation.txt?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rgbd_hand_eye_transformation.txt&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;h3 id=&#34;synthetic-sequences&#34;&gt;Synthetic sequences&lt;/h3&gt;
-
-&lt;p&gt;To run the &lt;code&gt;demo_vo_sos.py&lt;/code&gt; script with the &lt;em&gt;synthetic&lt;/em&gt; data set, it suffices to obtain the corresponding GUMS calibration file &lt;a href=&#34;https://www.dropbox.com/s/9k8s1ah1qmgwqrc/gums-calibrated.pkl?dl=0&#34; target=&#34;_blank&#34;&gt;gums-calibrated.pkl&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;To run the &lt;code&gt;demo_vo_sos.py&lt;/code&gt; script with the &lt;em&gt;synthetic&lt;/em&gt; data set, it suffices to obtain the corresponding GUMS calibration file &lt;a href=&#34;https://www.dropbox.com/s/9k8s1ah1qmgwqrc/gums-calibrated.pkl?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gums-calibrated.pkl&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
   &lt;tr&gt;
     &lt;th &gt;Name&lt;/th&gt;
@@ -138,230 +107,193 @@ All the calibration images and &#34;pickles&#34; can be found here:
     &lt;td&gt;&lt;div align=&#34;center&#34;&gt;1240&lt;/div&gt;&lt;/td&gt;
   &lt;/tr&gt;
 &lt;/table&gt;
-
 &lt;h3 id=&#34;real-life-sequences&#34;&gt;Real-life sequences&lt;/h3&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;To run the &lt;code&gt;demo_vo_sos.py&lt;/code&gt; script with the &lt;em&gt;real-life&lt;/em&gt; SOS data set, it suffices to obtain the corresponding GUMS calibration file &lt;a href=&#34;https://www.dropbox.com/s/i01jl165c0mzb8n/gums-calibrated.pkl?dl=0&#34; target=&#34;_blank&#34;&gt;gums-calibrated.pkl&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;To run the &lt;code&gt;demo_vo_rgbd.py&lt;/code&gt; script with the &lt;em&gt;real-life&lt;/em&gt; RGB-D data set, the required &lt;em&gt;hand-eye transformation&lt;/em&gt; &lt;a href=&#34;https://www.dropbox.com/s/0322px08wdyirz1/rgbd_hand_eye_transformation.txt?dl=0&#34; target=&#34;_blank&#34;&gt;rgbd_hand_eye_transformation.txt&lt;/a&gt; is needed.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To run the &lt;code&gt;demo_vo_sos.py&lt;/code&gt; script with the &lt;em&gt;real-life&lt;/em&gt; SOS data set, it suffices to obtain the corresponding GUMS calibration file &lt;a href=&#34;https://www.dropbox.com/s/i01jl165c0mzb8n/gums-calibrated.pkl?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gums-calibrated.pkl&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;To run the &lt;code&gt;demo_vo_rgbd.py&lt;/code&gt; script with the &lt;em&gt;real-life&lt;/em&gt; RGB-D data set, the required &lt;em&gt;hand-eye transformation&lt;/em&gt; &lt;a href=&#34;https://www.dropbox.com/s/0322px08wdyirz1/rgbd_hand_eye_transformation.txt?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;rgbd_hand_eye_transformation.txt&lt;/a&gt; is needed.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h4 id=&#34;conventional-motion&#34;&gt;Conventional motion&lt;/h4&gt;
-
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Name&lt;/th&gt;
-&lt;th&gt;# Frames&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/xkxp880mxcvcj8x/square_small.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Square Small&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;619&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/7xt2scl62ofwnxm/square_smooth.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Square Smooth&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1325&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/nazxaamjnr6amah/spinning.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Spinning&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;770&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/e3xsn9fq20fwwbr/vertical.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Vertical&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;459&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/ojggx0nmzg6jh9d/free_style.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Free Style&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;611&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/2kttiewtv20x880/hallway.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Hallway&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;5636&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;# Frames&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/xkxp880mxcvcj8x/square_small.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Square Small&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;619&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/7xt2scl62ofwnxm/square_smooth.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Square Smooth&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1325&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/nazxaamjnr6amah/spinning.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Spinning&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;770&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/e3xsn9fq20fwwbr/vertical.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Vertical&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;459&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/ojggx0nmzg6jh9d/free_style.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Free Style&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;611&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/2kttiewtv20x880/hallway.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hallway&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;5636&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;h4 id=&#34;moving-under-special-conditions&#34;&gt;Moving under special conditions&lt;/h4&gt;
-
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Name&lt;/th&gt;
-&lt;th&gt;# Frames&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/9rodx1ma02atnwu/into_wall_regular.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Into Wall - Regular&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1041&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/dh1c73tsswyqzew/into_wall_slow.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Into Wall - Slow&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1400&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/zymh8znjoxaf2z6/into_wall_fast.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Into Wall - Fast&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;896&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/mui9v6j1rhzncl6/into_wall_curvy.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Into Wall - Curvy&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;838&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/xnj7e01vm2jfbkx/into_darkness_straight.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Into Dark - Straight&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;998&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/bw5slevqzrwupk0/into_darkness_turning.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Into Dark - Turning&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1260&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;# Frames&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/9rodx1ma02atnwu/into_wall_regular.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Into Wall - Regular&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1041&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/dh1c73tsswyqzew/into_wall_slow.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Into Wall - Slow&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1400&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/zymh8znjoxaf2z6/into_wall_fast.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Into Wall - Fast&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;896&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/mui9v6j1rhzncl6/into_wall_curvy.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Into Wall - Curvy&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;838&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/xnj7e01vm2jfbkx/into_darkness_straight.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Into Dark - Straight&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;998&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/bw5slevqzrwupk0/into_darkness_turning.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Into Dark - Turning&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1260&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;h4 id=&#34;moving-in-dynamic-environments&#34;&gt;Moving in dynamic environments&lt;/h4&gt;
-
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Name&lt;/th&gt;
-&lt;th&gt;# Frames&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/m3q3xw747eajvtq/moving_in_slow_dynamic_environment.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Slow Dynamic&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;390&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/j2p4mi8sg9h5gng/moving_in_fast_dynamic_environment.zip?dl=0&#34; target=&#34;_blank&#34;&gt;Fast Dynamic&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;518&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/ubbq4q296l669yc/GCT_clock.zip?dl=0&#34; target=&#34;_blank&#34;&gt;GCT Clock&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;2179&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/16qhrqzlc4wwzvc/GCT_stairs.zip?dl=0&#34; target=&#34;_blank&#34;&gt;GCT Stairs&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;3625&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;# Frames&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/m3q3xw747eajvtq/moving_in_slow_dynamic_environment.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Slow Dynamic&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;390&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/j2p4mi8sg9h5gng/moving_in_fast_dynamic_environment.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fast Dynamic&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;518&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/ubbq4q296l669yc/GCT_clock.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GCT Clock&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;2179&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/16qhrqzlc4wwzvc/GCT_stairs.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GCT Stairs&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;3625&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;h4 id=&#34;static-rigs-in-dynamic-environments&#34;&gt;Static rigs in dynamic environments&lt;/h4&gt;
-
 &lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Prox. [m]&lt;/th&gt;
-&lt;th&gt;# People&lt;/th&gt;
-&lt;th&gt;File Link&lt;/th&gt;
-&lt;th&gt;# Frames&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/swt1az2i9rvs9ok/static_dynamic_1_1.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_1_1.zip&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;691&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/chh2oh21ufg1a26/static_dynamic_1_2.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_1_2.zip&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;759&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/6bco2rtpncqrdsl/static_dynamic_1_4.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_1_4.zip&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;791&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/m2u0qx1nsjz3v07/static_dynamic_2_1.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_2_1.zip&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;679&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/b0viyankjrh81tq/static_dynamic_2_2.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_2_2.zip&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;673&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/yw0y63tslvu2zff/static_dynamic_2_4.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_2_4.zip&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;799&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/pkguohcliqd120p/static_dynamic_3_1.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_3_1.zip&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;720&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/d2d062sl8vo1wfp/static_dynamic_3_2.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_3_2.zip&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;815&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/cnr0antcvt5tv3a/static_dynamic_3_4.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_3_4.zip&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;772&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Var&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/kamzqbkgpoey0p3/static_dynamic_freestyle.zip?dl=0&#34; target=&#34;_blank&#34;&gt;static_dynamic_freestyle.zip&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;939&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Var&lt;/td&gt;
-&lt;td&gt;Var&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/8666co2qu4a61en/GCT_static.zip?dl=0&#34; target=&#34;_blank&#34;&gt;GCT_static.zip&lt;/a&gt;&lt;/td&gt;
-&lt;td&gt;1904&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;Prox. [m]&lt;/th&gt;
+          &lt;th&gt;# People&lt;/th&gt;
+          &lt;th&gt;File Link&lt;/th&gt;
+          &lt;th&gt;# Frames&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/swt1az2i9rvs9ok/static_dynamic_1_1.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static_dynamic_1_1.zip&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;691&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/chh2oh21ufg1a26/static_dynamic_1_2.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static_dynamic_1_2.zip&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;759&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;4&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/6bco2rtpncqrdsl/static_dynamic_1_4.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static_dynamic_1_4.zip&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;791&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/m2u0qx1nsjz3v07/static_dynamic_2_1.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static_dynamic_2_1.zip&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;679&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/b0viyankjrh81tq/static_dynamic_2_2.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static_dynamic_2_2.zip&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;673&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;4&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/yw0y63tslvu2zff/static_dynamic_2_4.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static_dynamic_2_4.zip&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;799&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;1&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/pkguohcliqd120p/static_dynamic_3_1.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static_dynamic_3_1.zip&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;720&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/d2d062sl8vo1wfp/static_dynamic_3_2.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static_dynamic_3_2.zip&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;815&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;3&lt;/td&gt;
+          &lt;td&gt;4&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/cnr0antcvt5tv3a/static_dynamic_3_4.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static_dynamic_3_4.zip&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;772&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Var&lt;/td&gt;
+          &lt;td&gt;2&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/kamzqbkgpoey0p3/static_dynamic_freestyle.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;static_dynamic_freestyle.zip&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;939&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;Var&lt;/td&gt;
+          &lt;td&gt;Var&lt;/td&gt;
+          &lt;td&gt;&lt;a href=&#34;https://www.dropbox.com/s/8666co2qu4a61en/GCT_static.zip?dl=0&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GCT_static.zip&lt;/a&gt;&lt;/td&gt;
+          &lt;td&gt;1904&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;h2 id=&#34;citation&#34;&gt;Citation&lt;/h2&gt;
-
 &lt;p&gt;When using this dataset in your research, please cite:&lt;/p&gt;
-
 &lt;div&gt;&lt;p&gt;
 @ARTICLE{&lt;a href=&#34;http://dx.doi.org/10.1007/s00138-019-01041-9&#34;&gt;Jaramillo2019MVAP&lt;/a&gt;,&lt;br/&gt;
 &amp;nbsp; author = {&lt;a href=&#34;http://ubuntuslave.github.io&#34; target=&#34;blank&#34;&gt;Carlos Jaramillo&lt;/a&gt; 
@@ -379,15 +311,12 @@ journal = {Springer Machine Vision and Applications (MVAP)},&lt;br/&gt;
 }
 &lt;br/&gt;
 &lt;/p&gt;&lt;/div&gt;
-
 &lt;h2 id=&#34;copyright&#34;&gt;Copyright&lt;/h2&gt;
-
 &lt;div&gt;&lt;p&gt;
 &lt;img alt=&#34;Creative Commons License&#34; style=&#34;border-width:0;float:left;margin-right:10px;&#34; src=&#34;http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png&#34; /&gt;All datasets on this page are copyrighted by Carlos Jaramillo and published under the &lt;a rel=&#34;license&#34; href=&#34;http://creativecommons.org/licenses/by-nc-sa/3.0/&#34;&gt;Creative Commons Attribution-NonCommercial-ShareAlike 3.0&lt;/a&gt; License. 
 &lt;br/&gt;
 This means that you must attribute the work in the manner specified by the authors, you may not use this work for commercial purposes and if you alter, transform, or build upon this work, you may distribute the resulting work only under the same license.&lt;br&gt;
-&lt;/p&gt;&lt;/div&gt;
-</description>
+&lt;/p&gt;&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -396,187 +325,6 @@ This means that you must attribute the work in the manner specified by the autho
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2019-mvap-sos_vo/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Slides</title>
-      <link>https://ubuntuslave.github.io/slides/example/</link>
-      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://ubuntuslave.github.io/slides/example/</guid>
-      <description>
-
-&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Code block:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-
-&lt;p&gt;Block math:&lt;/p&gt;
-
-&lt;p&gt;$$
-f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-   One
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-   &lt;strong&gt;Two&lt;/strong&gt;
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-   Three
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/aside&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;/img/boards.jpg&#34;
-  &gt;
-
-
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
-</description>
     </item>
     
     <item>
@@ -592,29 +340,45 @@ $$&lt;/p&gt;
       <link>https://ubuntuslave.github.io/publication/2017-3dv-dmt/</link>
       <pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2017-3dv-dmt/</guid>
-      <description>
-
-&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
-
+      <description>&lt;h2 id=&#34;theory&#34;&gt;Theory&lt;/h2&gt;
 &lt;p&gt;The following figure explains the pipeline of the DMT system:&lt;/p&gt;
+&lt;p&gt;
 
-&lt;p&gt;&lt;img src=&#34;DMT-pipeline-white_bg.png&#34; alt=&#34;DMT System Pipeline&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The single channel energy equation for photometric alignment is
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;DMT System Pipeline&#34; srcset=&#34;
+               /publication/2017-3dv-dmt/DMT-pipeline-white_bg_hu_21ec5c9d009a68ff.webp 400w,
+               /publication/2017-3dv-dmt/DMT-pipeline-white_bg_hu_c867631336249603.webp 760w,
+               /publication/2017-3dv-dmt/DMT-pipeline-white_bg_hu_73d1e70c2db9b3cf.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2017-3dv-dmt/DMT-pipeline-white_bg_hu_21ec5c9d009a68ff.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;457&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 $$
 E(\xi ) = \sum\limits_{i = 1}^V {{{({{I_K}({{\bf{p}}_i}) - I(\omega ({{\bf{p}}_i},{{\bf{D}}_K}({{\bf{p}}_i}),\xi ))})}^2}}
-$$&lt;/p&gt;
-
-&lt;p&gt;where ${\bf \xi}$ is a $6$-vector representing the pose of the current image $I$ with respect to the reference image $I_K$ in Lie algebra $\mathfrak{se}(3)$,
+$$&lt;p&gt;where ${\bf \xi}$ is a $6$-vector representing the pose of the current image $I$ with respect to the reference image $I_K$ in Lie algebra $\mathfrak{se}(3)$,
 and $\omega$ is the 3D projective warp function that maps the pixel location ${\bf{p}}_i$ in the reference image according to its inverse depth $D_K ({\bf{p}}_i)$
 and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
-
-&lt;h3 id=&#34;qulitative-3d-reconstruction-demonstration-comparisson-to-the-single-channel-grascale-method-video&#34;&gt;Qulitative 3D reconstruction demonstration/comparisson to the single-channel (grascale) method video:&lt;/h3&gt;
-
-
+&lt;h3 id=&#34;qulitative-3d-reconstruction-demonstrationcomparisson-to-the-single-channel-grascale-method-video&#34;&gt;Qulitative 3D reconstruction demonstration/comparisson to the single-channel (grascale) method video:&lt;/h3&gt;
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/WA55baA23Zs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/WA55baA23Zs?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 </description>
     </item>
@@ -624,16 +388,38 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <link>https://ubuntuslave.github.io/publication/2016-iros-gums/</link>
       <pubDate>Sun, 09 Oct 2016 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2016-iros-gums/</guid>
-      <description>
+      <description>&lt;p&gt;
 
-&lt;p&gt;&lt;img src=&#34;gums-coaxially_constrained-white_bg.png&#34; alt=&#34;Coaxially constrained GUMS&#34; /&gt;&lt;/p&gt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Coaxially constrained GUMS&#34; srcset=&#34;
+               /publication/2016-iros-gums/gums-coaxially_constrained-white_bg_hu_db9b2e4b71237e82.webp 400w,
+               /publication/2016-iros-gums/gums-coaxially_constrained-white_bg_hu_1a5bea35f01e9f1d.webp 760w,
+               /publication/2016-iros-gums/gums-coaxially_constrained-white_bg_hu_94943991e11af644.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2016-iros-gums/gums-coaxially_constrained-white_bg_hu_db9b2e4b71237e82.webp&#34;
+               width=&#34;680&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;calibration-demonstration-video&#34;&gt;Calibration demonstration video:&lt;/h3&gt;
-
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/8c7fTHMSUFM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/8c7fTHMSUFM?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 </description>
     </item>
@@ -643,7 +429,34 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <link>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</link>
       <pubDate>Sat, 06 Feb 2016 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;graphical_representation_of_the_paper-white_bg.png&#34; alt=&#34;Graphical representation of the article&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Graphical representation of the article&#34; srcset=&#34;
+               /publication/2016-sensors-omnistereo_sensor/graphical_representation_of_the_paper-white_bg_hu_113eae9c25ac4bb9.webp 400w,
+               /publication/2016-sensors-omnistereo_sensor/graphical_representation_of_the_paper-white_bg_hu_8f52202f6ae32d.webp 760w,
+               /publication/2016-sensors-omnistereo_sensor/graphical_representation_of_the_paper-white_bg_hu_eac9962770220c69.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2016-sensors-omnistereo_sensor/graphical_representation_of_the_paper-white_bg_hu_113eae9c25ac4bb9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;483&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -661,8 +474,34 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <pubDate>Sat, 31 May 2014 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2014-icra-uav/</guid>
       <description>&lt;p&gt;Four-dimensional path (blue) in a cluttered indoor environment (map) built online with the visual odometry algorithm using the RGB-D sensor.&lt;/p&gt;
+&lt;p&gt;
 
-&lt;p&gt;&lt;img src=&#34;ICRA2014-path_goals.png&#34; alt=&#34;Path for the quadrotor in the clutter map&#34; /&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Path for the quadrotor in the clutter map&#34; srcset=&#34;
+               /publication/2014-icra-uav/ICRA2014-path_goals_hu_2ddbd874d9df12c1.webp 400w,
+               /publication/2014-icra-uav/ICRA2014-path_goals_hu_3fe108b1aebcc57f.webp 760w,
+               /publication/2014-icra-uav/ICRA2014-path_goals_hu_c16b992f7cfe0a5e.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2014-icra-uav/ICRA2014-path_goals_hu_2ddbd874d9df12c1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;499&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -671,12 +510,35 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <link>https://ubuntuslave.github.io/publication/2013-robio-6dof/</link>
       <pubDate>Thu, 12 Dec 2013 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2013-robio-6dof/</guid>
-      <description>
+      <description>&lt;h2 id=&#34;6-dof-pose-localization-algorithm&#34;&gt;6-DoF Pose Localization Algorithm&lt;/h2&gt;
+&lt;p&gt;
 
-&lt;h2 id=&#34;6-dof-pose-localization-algorithm&#34;&gt;6-DoF Pose Localization Algorithm&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&#34;ROBIO2013-digest.png&#34; alt=&#34;Localization Pipeline&#34; /&gt;&lt;/p&gt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Localization Pipeline&#34; srcset=&#34;
+               /publication/2013-robio-6dof/ROBIO2013-digest_hu_bb49a8863f1e626b.webp 400w,
+               /publication/2013-robio-6dof/ROBIO2013-digest_hu_b5d984583778ce4c.webp 760w,
+               /publication/2013-robio-6dof/ROBIO2013-digest_hu_f55520761481be8.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2013-robio-6dof/ROBIO2013-digest_hu_bb49a8863f1e626b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;223&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;The virtual view is constructed by projecting the map&amp;rsquo;s 3D points to a plane using the $t-1$ pose.&lt;/li&gt;
 &lt;li&gt;2D features are matched between the real and virtual images.&lt;/li&gt;
@@ -700,17 +562,60 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <link>https://ubuntuslave.github.io/publication/2013-mvap-spherical_omnistereo/</link>
       <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2013-mvap-spherical_omnistereo/</guid>
-      <description>
+      <description>&lt;h3 id=&#34;geometric-model&#34;&gt;Geometric Model&lt;/h3&gt;
+&lt;p&gt;
 
-&lt;h3 id=&#34;geometric-model&#34;&gt;Geometric Model&lt;/h3&gt;
 
-&lt;p&gt;&lt;img src=&#34;spherical_rig-geometric_model.png&#34; alt=&#34;Spherical omnistereo geometric model&#34; /&gt;&lt;/p&gt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Spherical omnistereo geometric model&#34; srcset=&#34;
+               /publication/2013-mvap-spherical_omnistereo/spherical_rig-geometric_model_hu_b58ff66e674994ef.webp 400w,
+               /publication/2013-mvap-spherical_omnistereo/spherical_rig-geometric_model_hu_6884c7ed1b232677.webp 760w,
+               /publication/2013-mvap-spherical_omnistereo/spherical_rig-geometric_model_hu_7c4ea2de29b3a9fd.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2013-mvap-spherical_omnistereo/spherical_rig-geometric_model_hu_b58ff66e674994ef.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;706&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;h3 id=&#34;non-single-viewpoint-non-svp-constraint&#34;&gt;Non Single Viewpoint (non-SVP) Constraint&lt;/h3&gt;
-
 &lt;p&gt;We set virtual camera $F$&amp;rsquo;  at cusp of caustic $C$ of viewpoints. The following animation exemplifies the respective projection $u$ of a point $P$ and the change in uncertainty ${\delta \varphi}$ due to the incidence angle (elevation angle ${\varphi}$).&lt;/p&gt;
+&lt;p&gt;
 
-&lt;p&gt;&lt;img src=&#34;non-SVP_caustic-animation.gif&#34; alt=&#34;Non-SVP caustic due to projection angles&#34; /&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Non-SVP caustic due to projection angles&#34;
+           src=&#34;https://ubuntuslave.github.io/publication/2013-mvap-spherical_omnistereo/non-SVP_caustic-animation.gif&#34;
+           loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -727,8 +632,7 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <link>https://ubuntuslave.github.io/project/cata/</link>
       <pubDate>Sat, 04 Jun 2011 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/project/cata/</guid>
-      <description>&lt;p&gt;In 2011, we engineered an autonomous vehicle with a simplified electrical architecture (focusing in safety and usability) and by adopting a new software architecture based on the open-source &lt;a href=&#34;http://ros.org&#34; target=&#34;_blank&#34;&gt;Robotics Operating System (ROS)&lt;/a&gt; framework, which enforces modularity and guarantees maintainability and reusability.&lt;/p&gt;
-
+      <description>&lt;p&gt;In 2011, we engineered an autonomous vehicle with a simplified electrical architecture (focusing in safety and usability) and by adopting a new software architecture based on the open-source &lt;a href=&#34;http://ros.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Robotics Operating System (ROS)&lt;/a&gt; framework, which enforces modularity and guarantees maintainability and reusability.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ubuntuslave.github.io/project/cata/CATA-design_report.pdf&#34;&gt;Download our Design Report&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -738,7 +642,34 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <link>https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/</link>
       <pubDate>Mon, 09 May 2011 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;best_CV_paper-finalist-certificate.png&#34; alt=&#34;Best Vision Paper Award - Finalist&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Best Vision Paper Award - Finalist&#34; srcset=&#34;
+               /publication/2011-icra-fusing_optical_flow/best_CV_paper-finalist-certificate_hu_c546d221be2eae64.webp 400w,
+               /publication/2011-icra-fusing_optical_flow/best_CV_paper-finalist-certificate_hu_a75595a684215e1e.webp 760w,
+               /publication/2011-icra-fusing_optical_flow/best_CV_paper-finalist-certificate_hu_e0a63d547dba31e.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/publication/2011-icra-fusing_optical_flow/best_CV_paper-finalist-certificate_hu_c546d221be2eae64.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;589&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -747,17 +678,40 @@ and the pose ${\bf{\xi}}$ to the pixel location in the current image.&lt;/p&gt;
       <link>https://ubuntuslave.github.io/project/cityalien/</link>
       <pubDate>Fri, 04 Jun 2010 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/project/cityalien/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;CityALIEN-design_first_place_certificate.jpg&#34; alt=&#34;CityALIEN First Place Design Competition&#34; /&gt;&lt;/p&gt;
+      <description>&lt;p&gt;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;CityALIEN First Place Design Competition&#34; srcset=&#34;
+               /project/cityalien/CityALIEN-design_first_place_certificate_hu_5c4aa310b47f3936.webp 400w,
+               /project/cityalien/CityALIEN-design_first_place_certificate_hu_f72d85b70a5f19aa.webp 760w,
+               /project/cityalien/CityALIEN-design_first_place_certificate_hu_19aa942764e773c8.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/project/cityalien/CityALIEN-design_first_place_certificate_hu_5c4aa310b47f3936.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;587&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 &lt;p&gt;During 2009-2010, I participated in the design of the City College&amp;rsquo;s IGVC 2010 rover (CityALIEN) by incorporating a novel approach based on stereo and omnidirectional vision.
-Our design won the &lt;a href=&#34;http://www.igvc.org/results/r2010.pdf&#34; target=&#34;_blank&#34;&gt;First Place in the Design Competition&lt;/a&gt;.&lt;/p&gt;
-
+Our design won the &lt;a href=&#34;http://www.igvc.org/results/r2010.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;First Place in the Design Competition&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ubuntuslave.github.io/project/cityalien/CityALIEN-design_report.pdf&#34;&gt;Download our Design Report&lt;/a&gt;&lt;/p&gt;
-
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/mHm1WIUUBzw&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/mHm1WIUUBzw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+    &lt;/div&gt;
 
 </description>
     </item>
@@ -767,19 +721,41 @@ Our design won the &lt;a href=&#34;http://www.igvc.org/results/r2010.pdf&#34; ta
       <link>https://ubuntuslave.github.io/project/surveyor/</link>
       <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
       <guid>https://ubuntuslave.github.io/project/surveyor/</guid>
-      <description>
-
-&lt;p&gt;In 2009, as part of &lt;a href=&#34;http://dreuarchive.cra.org/2009/Jaramillo/DREU/project.php&#34; target=&#34;_blank&#34;&gt;my Research Experience for Undergraduates&lt;/a&gt;, I developed software for different types of small, educational robots, such as the Mindstorms Robotics Invention System, IPRE Scribbler, and Surveyor SRV-1&lt;/p&gt;
-
+      <description>&lt;p&gt;In 2009, as part of &lt;a href=&#34;http://dreuarchive.cra.org/2009/Jaramillo/DREU/project.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;my Research Experience for Undergraduates&lt;/a&gt;, I developed software for different types of small, educational robots, such as the Mindstorms Robotics Invention System, IPRE Scribbler, and Surveyor SRV-1&lt;/p&gt;
 &lt;h3 id=&#34;source-code&#34;&gt;Source Code:&lt;/h3&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://ubuntuslave.github.io/Surveyor_Driver&#34; target=&#34;_blank&#34;&gt;Player/Stage Driver for the Surveyor&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://ubuntuslave.github.io/SRVjoy&#34; target=&#34;_blank&#34;&gt;Player/Stage control GUI for the Surveyor (SRVjoy)&lt;/a&gt; or any Player-based mobile robot&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ubuntuslave.github.io/Surveyor_Driver&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Player/Stage Driver for the Surveyor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ubuntuslave.github.io/SRVjoy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Player/Stage control GUI for the Surveyor (SRVjoy)&lt;/a&gt; or any Player-based mobile robot&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;This is an example of the simulated SRV-1 robot on the occupancy grid (on Stage):
-&lt;img src=&#34;surveyor_on_stage.png&#34; alt=&#34;Simulated SRV-1 robot on Stage&#34; /&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;flex justify-center	&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Simulated SRV-1 robot on Stage&#34; srcset=&#34;
+               /project/surveyor/surveyor_on_stage_hu_676af2871fb39c3.webp 400w,
+               /project/surveyor/surveyor_on_stage_hu_6aa3e45523e86a65.webp 760w,
+               /project/surveyor/surveyor_on_stage_hu_310d9375a61bcef0.webp 1200w&#34;
+               src=&#34;https://ubuntuslave.github.io/project/surveyor/surveyor_on_stage_hu_676af2871fb39c3.webp&#34;
+               width=&#34;635&#34;
+               height=&#34;636&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
 </description>
     </item>
     
